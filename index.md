@@ -7,9 +7,7 @@ UnrealSharp is a plugin for Unreal Engine 5 that allows game developers to use C
 
 [Workflow Showcase](https://www.youtube.com/watch?v=NdbiysPTztA)
 
-Join the discord community to stay up to date with the recent updates and plugin support!
-
-[Discord community](https://discord.gg/HQuJUYFxeV)
+![CodeShowcase](https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/media/home/CodeShowcase.png)
 
 ## Features
 - **C# Integration**: Write your game logic in C#.
@@ -20,6 +18,12 @@ Join the discord community to stay up to date with the recent updates and plugin
 
 Planned or in development:
 - Console/Mobile Support
+
+## Discord
+
+Join the discord community to stay up to date with the recent updates and plugin support!
+
+[Discord community](https://discord.gg/HQuJUYFxeV)
 
 ## License
 Distributed under the MIT License.
