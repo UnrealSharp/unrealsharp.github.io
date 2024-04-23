@@ -3,7 +3,6 @@ layout: default
 title: Home
 nav_order: 1
 ---
-
 UnrealSharp is a plugin for Unreal Engine 5 that allows game developers to use C# in their projects with the power of .NET 8. It bridges the gap between C# and UE5, providing a seamless and efficient workflow for those who prefer C# over C++/Blueprints.
 
 [Github Repository](https://github.com/UnrealSharp/UnrealSharp)
@@ -21,11 +20,9 @@ Planned or in development:
 - Console/Mobile Support
 
 ## Get Started 
-
 Visit the [Get Started](https://unrealsharp.github.io/get-started.html).
 
 ## Discord
-
 Join the discord community to stay up to date with the recent updates and plugin support!
 
 [Discord community](https://discord.gg/HQuJUYFxeV)
