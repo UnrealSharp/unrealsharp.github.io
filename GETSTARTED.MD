@@ -1,5 +1,5 @@
 ---
-title: GETSTARTED
+title: Get Started
 layout: default
 ---
 
