@@ -3,7 +3,6 @@ title: Enums
 layout: default
 nav_order: 4
 ---
-
 ```c#
 [UEnum]
 public enum MyEnum : byte

@@ -3,8 +3,6 @@ title: Structs
 layout: default
 nav_order: 3
 ---
-
-
 ```c#
 using UnrealSharp.Attributes;
 
