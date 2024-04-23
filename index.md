@@ -21,7 +21,7 @@ Planned or in development:
 
 ## Get Started 
 
-
+Visit the [Get Started](https://unrealsharp.github.io/get-started.html).
 
 ## Discord
 
