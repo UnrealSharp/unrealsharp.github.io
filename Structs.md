@@ -1,6 +1,7 @@
 ---
 title: Structs
 layout: default
+nav_order: 3
 ---
 
 
