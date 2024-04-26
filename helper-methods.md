@@ -2,6 +2,8 @@
 title: Helper Methods
 layout: default
 ---
+# Helper Methods
+
 UnrealSharp extends Unreal Engine by providing simplified methods to spawn and manage Actor and ActorComponent objects. Below are the available methods for each class type.
 
 ## Methods Available for Actor Classes:

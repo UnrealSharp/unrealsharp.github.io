@@ -2,6 +2,8 @@
 title: Packaging
 layout: default
 ---
+# Packaging 
+
 ## Package Your Game
 
 **Currently only Windows is supported**

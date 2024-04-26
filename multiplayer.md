@@ -2,6 +2,8 @@
 title: Multiplayer
 layout: default
 ---
+# Multiplayer
+
 UnrealSharp simplifies multiplayer in Unreal Engine by providing an intuitive way to declare and manage replicated properties and remote procedure calls (RPCs).
 
 ## Replicated Properties

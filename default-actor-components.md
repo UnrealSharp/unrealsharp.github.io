@@ -2,6 +2,8 @@
 title: Default Actor Components
 layout: default
 ---
+# Default Actor Components
+
 In Unreal Engine, actors can be composed of multiple components that represent physical parts of the object, such as meshes, cameras, or lights. Attaching these components to your actor is straightforward and highly customizable in UnrealSharp.
 
 ## Setting a Root Component
