@@ -28,7 +28,7 @@ Planned or in development:
 
 ## Roadmap
 
-[Roadmap](https://github.com/orgs/UnrealSharp/projects/3)
+Visit the [Roadmap](https://github.com/orgs/UnrealSharp/projects/3).
 
 ## Get Started 
 
