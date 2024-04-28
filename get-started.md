@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Prerequisites
 
-Unreal Engine 5.3.+ (UnrealSharp 0.2 was developed using 5.3, so may work on earlier versions)
+Unreal Engine 5.3+ (UnrealSharp 0.2 was developed using 5.3, so may work on earlier versions)
 
 Install [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
