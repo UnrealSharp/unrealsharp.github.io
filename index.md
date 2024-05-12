@@ -25,6 +25,10 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 Planned or in development:
 - Console/Mobile Support
 
+## Sample Project
+
+Check out [UnrealSharp-Cropout](https://github.com/UnrealSharp/UnrealSharp-Cropout/tree/main), an ongoing effort to convert [Cropout](https://www.unrealengine.com/en-US/blog/cropout-casual-rts-game-sample-project), originally created in Blueprints, into C# using UnrealSharp.
+
 ## Roadmap
 
 Visit the [Roadmap](https://github.com/orgs/UnrealSharp/projects/3).
