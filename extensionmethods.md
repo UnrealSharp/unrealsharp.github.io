@@ -1,3 +1,8 @@
+---
+title: Extension Methods
+layout: default
+---
+
 # C++ Extension Methods for C#
 
 Extension methods are static methods that can be invoked on an existing class as if they were instance methods of that class. This is particularly useful when you want to add methods to existing classes (such as `Actor`) without modifying their original source code.
