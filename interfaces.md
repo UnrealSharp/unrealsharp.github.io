@@ -1,8 +1,9 @@
 ---
-title: Enums
+title: Interfaces
 layout: default
 ---
-# Interfacs
+
+# Interfaces
 
 To create an interface in UnrealSharp, the interface must be prefixed with I, subclassed from IInterface, and use the UInterface attribute.
 
@@ -18,4 +19,4 @@ public interface IInteractable : IInterface
 }
 ´´´
 
-The UFunction for interface functions can only be defined in their interface. You can't UFunction a impelementation of the interface method.
+The UFunction for interface methods can only be defined in their interface. You can't UFunction an impelementation of the interface method.
