@@ -7,7 +7,7 @@ layout: default
 
 To create an interface in UnrealSharp, the interface must be prefixed with I, subclassed from IInterface, and use the UInterface attribute.
 
-´´´c#
+```c#
 [UInterface]
 public interface IInteractable : IInterface
 {
@@ -17,6 +17,6 @@ public interface IInteractable : IInterface
     [UFunction(FunctionFlags.BlueprintEvent)]
     public bool StopInteract();
 }
-´´´
+```
 
 The UFunction for interface methods can only be defined in their interface. You can't UFunction an impelementation of the interface method.
