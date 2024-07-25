@@ -17,7 +17,7 @@ UGameInstanceSubsystem => CSGameInstanceSubsystem
 
 UEngineSubsystem => CSEngineSubsystem
 
-ULocalPlayerPlayerSubsystem => CSLocalPlayerSubsystem
+ULocalPlayerSubsystem => CSLocalPlayerSubsystem
 
 ## Getting Subsystems
 
