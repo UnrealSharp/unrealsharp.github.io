@@ -13,7 +13,7 @@ The only difference is that you need to inherit from the CS wrapper, due to the 
 
 UWorldSubsystem => CSWorldSubsystem (This subsystem supports Tick aswell. UTickableWorldSubsystem doesn't exist.)
 
-UGameInstaceSubsystem => CSGameInstanceSubsystem
+UGameInstanceSubsystem => CSGameInstanceSubsystem
 
 UEngineSubsystem => CSEngineSubsystem
 
