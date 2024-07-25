@@ -14,4 +14,6 @@ public enum MyEnum : byte
 }
 ```
 
-The enum must have a underlying type of byte. It's a Unreal Engine restriction with reflection enums.
+Any enums exposed to Unreal Engine via UProperty/UEnum/UFunction-parameter must have a underlying type of byte. It's a restriction set by the engine with enums used in Blueprint. 
+
+If you don't need to expose them, you can have any valid underlying type.
