@@ -30,4 +30,4 @@ public struct MyStruct
 }
 ```
 
-Members in a struct needs to be field.
+Members in a Unreal Engine exposed struct through UStruct, needs to be a field. If not exposed, none of that applies.
