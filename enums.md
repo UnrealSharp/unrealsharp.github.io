@@ -7,7 +7,7 @@ nav_order: 4
 
 ```c#
 [UEnum]
-public enum MyEnum : byte
+public enum EMyEnum : byte
 {
     Value1 = 0,
     Value2 = 1,
