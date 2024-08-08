@@ -68,9 +68,9 @@ public static class CSharpForUEExtensions
 And can be used like this:
 
 ```c#
-protected override void ReceiveBeginPlay()
+protected override void BeginPlay()
 {
     MyActorReference.ExtensionMethod1(20);
-    base.ReceiveBeginPlay();
+    base.BeginPlay();
 }
 ```

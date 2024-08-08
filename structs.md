@@ -11,7 +11,7 @@ using UnrealSharp.Attributes;
 namespace MyNameSpace;
 
 [UStruct]
-public struct MyStruct
+public struct FMyStruct
 {
     [UProperty(PropertyFlags.BlueprintReadOnly)]
     public int MyInt;
@@ -26,7 +26,7 @@ public struct MyStruct
     public bool MyBool;
     
     [UProperty(PropertyFlags.BlueprintReadOnly)]
-    public Object MyObject;
+    public UObject MyObject;
 }
 ```
 
