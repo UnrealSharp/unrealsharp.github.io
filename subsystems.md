@@ -11,13 +11,16 @@ UnrealSharp supports any of the engine's [subsytem](https://docs.unrealengine.co
 
 The only difference is that you need to inherit from the CS wrapper, due to the lack of reflection exposed functions in the engine's subsystem classes.
 
-UWorldSubsystem => UCSWorldSubsystem (This subsystem supports Tick aswell. UTickableWorldSubsystem doesn't exist.)
+```c#
+// This WorldSubsystem supports Tick aswell. UTickableWorldSubsystem doesn't exist in UnrealSharp.
+UWorldSubsystem => UCSWorldSubsystem
 
 UGameInstanceSubsystem => UCSGameInstanceSubsystem
 
 UEngineSubsystem => UCSEngineSubsystem
 
 ULocalPlayerSubsystem => UCSLocalPlayerSubsystem
+```
 
 ## Getting Subsystems
 
