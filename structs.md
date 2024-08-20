@@ -1,15 +1,13 @@
 ---
 title: Structs
 layout: default
-nav_order: 3
+nav_order: 4
 ---
 # Structs 
 
+Members in a Unreal Engine exposed struct through UStruct, needs to be a field. If not exposed, none of that applies.
+
 ```c#
-using UnrealSharp.Attributes;
-
-namespace MyNameSpace;
-
 [UStruct]
 public struct FMyStruct
 {
@@ -29,5 +27,3 @@ public struct FMyStruct
     public UObject MyObject;
 }
 ```
-
-Members in a Unreal Engine exposed struct through UStruct, needs to be a field. If not exposed, none of that applies.
