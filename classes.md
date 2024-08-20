@@ -39,17 +39,17 @@ public class AMyShowcaseClass : AActor, IMyInterface
     }
 
     [UFunction(FunctionFlags.BlueprintCallable)]
-    public void UpdateMapWithKey(int key, string value)
+    public void UpdateMapWithKey(int key, string newValue)
     {
         if (MyMap.ContainsKey(key))
         {
-            MyMap[key] = value;
-            PrintString($"Updated key {key} with value '{value}'.");
+            MyMap[key] = newValue;
+            PrintString($"Updated key {key} with value '{newValue}'.");
         }
         else
         {
-            MyMap.Add(key, value);
-            PrintString($"Added key {key} with value '{value}'.");
+            MyMap.Add(key, newValue);
+            PrintString($"Added key {key} with value '{newValue}'.");
         }
     }
 
