@@ -4,7 +4,7 @@ layout: default
 nav_order: 3
 ---
 
-## Classes
+# Classes
 
 To expose C# classes to Unreal Engine, they must be marked with the [UClass] attribute and inherit from a UObject, such as AActor, UActorComponent, or any other subclass. Additionally, all members that are exposed to Unreal Engine through the [UProperty] attribute must be defined as properties.
 
