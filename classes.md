@@ -19,7 +19,7 @@ public class AMyShowcaseClass : AActor, IMyInterface
     public TArray<int> MyArray { get; set; }
 
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
-    public TMap<int, FString> MyMap { get; set; }
+    public TMap<int, string> MyMap { get; set; }
 
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
     public TWeakObjectPtr<AMyShowcaseClass> MyWeakObject { get; set; }
@@ -33,17 +33,15 @@ public class AMyShowcaseClass : AActor, IMyInterface
         MyMap.Add(1, "First Value");
         MyMap.Add(2, "Second Value");
 
-        MyFloat = 3.14f;
-
         MyWeakObject = this;
 
         UpdateMapWithKey(2, "Updated Second Value");
     }
 
     [UFunction(FunctionFlags.BlueprintCallable)]
-    public void UpdateMapWithKey(int key, FString value)
+    public void UpdateMapWithKey(int key, string value)
     {
-        if (MyMap.Contains(key))
+        if (MyMap.ContainsKey(key))
         {
             MyMap[key] = value;
             PrintString($"Updated key {key} with value '{value}'.");
@@ -60,14 +58,14 @@ public class AMyShowcaseClass : AActor, IMyInterface
     {
         if (otherActor != null)
         {
-            FVector direction = (otherActor.GetActorLocation() - GetActorLocation()).GetSafeNormal();
-            PrintString($"Interacted with {otherActor.Name}, moving towards {direction.ToString()}.");
+            FVector direction = (otherActor.GetActorLocation() - GetActorLocation());
+            PrintString($"Interacted with {otherActor.ObjectName}, moving towards {direction.ToString()}.");
 
             // Example: applying a simple force
-            UPrimitiveComponent primitiveComp = otherActor.FindComponentByClass<UPrimitiveComponent>();
+            UPrimitiveComponent primitiveComp = otherActor.GetComponentByClass<UPrimitiveComponent>();
             if (primitiveComp != null)
             {
-                primitiveComp.AddImpulse(direction * 500.0f, NAME_None, true);
+                primitiveComp.AddImpulse(direction * 500.0f, FName.None, true);
             }
         }
     }
