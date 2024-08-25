@@ -22,8 +22,12 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 - **Automatic Bindings:** Automatically generates C# API based on what is exposed to reflection.
 - **.NET Ecosystem:** Use any NuGet package to extend functionality.
 
-Planned or in development:
-- Console/Mobile Support
+## Supported Platforms
+* **Windows** - Yes
+* **Mac** - Yes
+* **iOS** - Planned
+* **Android** - Planned
+* **Linux** - Planned
 
 ## Sample Project
 
