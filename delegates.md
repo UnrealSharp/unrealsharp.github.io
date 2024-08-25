@@ -5,7 +5,7 @@ nav_order: 5
 ---
 # Delegates
 
-**This is only for delegates exposed to Unreal Engine through UFunction/UProperty**
+**This is only for C# delegates you want to expose to Unreal Engine through UFunction/UProperty.**
 
 ## Delegate Declaration
 
@@ -17,7 +17,7 @@ Delegates exposed to Unreal Engine needs to have parameters that are supported b
 // Multicast delegates.
 public delegate void MyShowcaseMulticastDelegate(int a);
 
-// Single delegates. They need the USingleAttribute for UnrealSharp to generate the correct glue to communicate with C++.
+// Single delegates. They need the USingleDelegate attribute for UnrealSharp to generate the correct glue to communicate with C++.
 [USingleDelegate]
 public delegate void MyShowcaseDelegate(int a);
 ```
