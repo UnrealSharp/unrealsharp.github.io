@@ -43,17 +43,17 @@ namespace ManagedCropoutUnrealSharp;
 
 //Currently UClass attribute is a must for the editor to recognize the class
 [UClass]
-public class MyTestClass : Actor
+public class AMyTestClass : AActor
 {
     //Optional constructor
-    protected MyTestClass()
+    protected AMyTestClass()
     {
     }
 
-    protected override void ReceiveBeginPlay()
+    protected override void BeginPlay()
     {
         PrintString("Hello from C#!");
-        base.ReceiveBeginPlay();
+        base.BeginPlay();
     }
 
     [UProperty(PropertyFlags.BlueprintReadOnly)]
@@ -66,13 +66,13 @@ public class MyTestClass : Actor
     public string MyString { get; set; }
 
     [UProperty(DefaultComponent = true, RootComponent = true)]
-    public StaticMeshComponent MyRootMesh { get; set; }
+    public UStaticMeshComponent MyRootMesh { get; set; }
     
     [UProperty(DefaultComponent = true)]
-    public StaticMeshComponent MyOtherMesh { get; set; }
+    public UStaticMeshComponent MyOtherMesh { get; set; }
     
     [UProperty(DefaultComponent = true, AttachmentComponent = nameof(MyRootMesh))]
-    public StaticMeshComponent MyMeshAttachedToRoot { get; set; }
+    public UStaticMeshComponent MyMeshAttachedToRoot { get; set; }
 
     [UFunction(FunctionFlags.BlueprintCallable)]
     public void MyFunction(bool myBool, int MyInt)

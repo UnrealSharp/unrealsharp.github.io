@@ -11,14 +11,14 @@ UnrealSharp extends Unreal Engine by providing simplified methods to spawn and m
 ### Basic Spawn:
 
 ```c#
-StaticMeshActor.Spawn(worldContextObject, MyActorClass);
+AStaticMeshActor.Spawn(worldContextObject, MyActorClass);
 ```
 Spawns an instance of the specified class.
 
 ### Spawn with Transform:
 
 ```c#
-StaticMeshActor.Spawn(worldContextObject, MyActorClass, GetActorTransform());
+AStaticMeshActor.Spawn(worldContextObject, MyActorClass, GetActorTransform());
 ```
 
 Spawns an instance of the specified class at a specific transform.
@@ -27,7 +27,7 @@ Spawns an instance of the specified class at a specific transform.
 
 ```c#
 SpawnActorCollisionHandlingMethod method = SpawnActorCollisionHandlingMethod.AlwaysSpawn;
-StaticMeshActor.Spawn(worldContextObject, MyActorClass, GetActorTransform(), method, instigator, owner);
+AStaticMeshActor.Spawn(worldContextObject, MyActorClass, GetActorTransform(), method, instigator, owner);
 ```
 
 Spawns an instance of the specified class with specified collision handling, instigator, and owner.
@@ -36,7 +36,7 @@ Spawns an instance of the specified class with specified collision handling, ins
 ### Retrieve Component:
 
 ```c#
-StaticMeshComponent? Mesh = StaticMeshComponent.Get(actor);
+UStaticMeshComponent? Mesh = UStaticMeshComponent.Get(actor);
 ```
 
 Retrieves the StaticMeshComponent of the specified actor.
@@ -44,9 +44,9 @@ Retrieves the StaticMeshComponent of the specified actor.
 ### Construct New Components:
 
 ```c#
-StaticMeshComponent MyNewMesh = StaticMeshComponent.Construct(owner);
-SkeletalMeshComponent MyNewMesh2 = SkeletalMeshComponent.Construct(owner, manualAttachment, new Transform());
-SplineMeshComponent MyNewMesh3 = SplineMeshComponent.Construct(owner, MyComponentClass, manualAttachment, new Transform());
+UStaticMeshComponent MyNewMesh = UStaticMeshComponent.Construct(owner);
+USkeletalMeshComponent MyNewMesh2 = USkeletalMeshComponent.Construct(owner, manualAttachment, new Transform());
+USplineMeshComponent MyNewMesh3 = USplineMeshComponent.Construct(owner, MyComponentClass, manualAttachment, new Transform());
 ```
 Constructs new mesh components with specified owner, attachment settings, and transform.
 
@@ -64,12 +64,12 @@ To use the code generation for your custom classes (it's already enabled for eng
 For the generated methods to be applicable, your classes must be declared as partial:
 
 ```c#
-public partial class MyActor : Actor
+public partial class AMyActor : AActor
 {
    
 }
 
-public partial class MyComponent : ActorComponent
+public partial class UMyComponent : UActorComponent
 {
 
 }

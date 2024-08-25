@@ -13,7 +13,7 @@ To generate extension methods from C++ to C#, a C++ function needs to follow the
 
 - **Static and Public:** Extension methods must be declared as `static` and `public` in your C++ class.
 - **Meta Attribute:** Use the `meta=(ExtensionMethod)`
-- **Parameter Requirements:** The first parameter must be a reference to the type you are extending (`AActor*` in the case of extending `AActor`).
+- **Parameter Requirements:** The first parameter must be the type you are extending (`AActor*` in the case of extending `AActor`).
 - **BlueprintCallable or ScriptMethod:** Ensure the method is marked with `BlueprintCallable` or `ScriptMethod` depending on your use case.
 - **BlueprintFunctionLibrary** Needs to be in a BlueprintFunctionLibrary.
 
@@ -68,9 +68,9 @@ public static class CSharpForUEExtensions
 And can be used like this:
 
 ```c#
-protected override void ReceiveBeginPlay()
+protected override void BeginPlay()
 {
     MyActorReference.ExtensionMethod1(20);
-    base.ReceiveBeginPlay();
+    base.BeginPlay();
 }
 ```

@@ -1,6 +1,7 @@
 ---
 title: Interfaces
 layout: default
+nav_order: 6
 ---
 
 # Interfaces
@@ -19,4 +20,4 @@ public interface IInteractable : IInterface
 }
 ```
 
-The UFunction for interface methods can only be defined in their interface. You can't UFunction an impelementation of the interface method.
+The UFunction for interface methods can only be defined in their interface. You can't UFunction an implementation of the interface method.
