@@ -13,12 +13,16 @@ UnrealSharp is a plugin for Unreal Engine that allows developers to use C# for g
 The plugin is not production ready yet, but the plan is yes you will be able to!
 
 ### 3. How do I download UnrealSharp?
-You will need to compile a source build yourself from the [GitHub repository](https://github.com/UnrealSharp/UnrealSharp).
+You can compile a source build from the [GitHub repository](https://github.com/UnrealSharp/UnrealSharp).
 
 ### 4. I'm coming from Unity with a C# background, is UnrealSharp a good fit for me?
-It is not recommended to use UnrealSharp without Unreal Engine experience and an engineer familiar with C++. Having an understanding of the [Blueprint / C++ architecture](https://youtu.be/VMZftEVDuCE?si=bxRZj6z9VDTC0Fkk) and how they're used side by side is extremely important to have knowledge on.
+It is recommended you have Unreal Engine experience and an engineer familiar with C++ to use UnrealSharp. Having an understanding of the [Blueprint / C++ architecture](https://youtu.be/VMZftEVDuCE?si=bxRZj6z9VDTC0Fkk) and how they're used side by side is extremely important to have knowledge on.
 
 Additionally, UnrealSharp can only access what is exposed to [reflection](#1-what-is-reflection), so similar to Blueprints you will still need to use C++ to expose certain systems or features. The plugin has an ongoing effort to help expose things to C# out of the box, such as subsystems, but you won't be able to rely on that for everything.
+
+### 5. Can I use UnrealSharp for commercial projects?
+
+Absolutely! UnrealSharp is completely free of charge and open-source for both personal and commercial use.
 
 ### 5. Does UnrealSharp support [ platform ]?
 The [Home Page](index.md#supported-platforms) has a Supported Platforms section listing out the supported and planned platforms.
