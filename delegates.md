@@ -5,7 +5,7 @@ nav_order: 5
 ---
 # Delegates
 
-**This is only for delegates exposed to Unreal Engine**
+**This is only for delegates exposed to Unreal Engine through UFunction/UProperty**
 
 ## Delegate Declaration
 
@@ -70,13 +70,13 @@ Delegates exposed to Unreal Engine follow the same syntax as standard C# delegat
         base.BeginPlay();
     }
     
+    // A callback to an Unreal Engine exposed delegate must be a UFunction.
     [UFunction]
     public void MyCallback(int a)
     {
         PrintString($"MyCallback invoked with {a}");
     }
 ```
-
 
 
 
