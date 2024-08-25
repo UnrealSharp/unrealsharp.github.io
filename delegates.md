@@ -31,7 +31,7 @@ In UnrealSharp, delegates can be exposed as class members in the following ways:
 public class ADelegateShowcaseClass : AActor
 {
     [UProperty(PropertyFlags.BlueprintAssignable)]
-    public TMulticastDelegate<MyShowcaseMulticastDelegate> TestDelegate { get; set; }
+    public TMulticastDelegate<MyShowcaseMulticastDelegate> MyMulticastDelegate { get; set; }
     
     [UFunction(FunctionFlags.BlueprintCallable)]
     public void MyFunctionWithCallback(TDelegate<MyShowcaseDelegate> singleDelegate)
@@ -53,19 +53,19 @@ Delegates exposed to Unreal Engine follow the same syntax as standard C# delegat
     protected override void BeginPlay()
     {
         // Subscribe to the delegate with a callback
-        TestDelegate += MyCallback;
+        MyMulticastDelegate += MyCallback;
         
         // Invoke the delegate
-        TestDelegate.Invoke(1337);
+        MyMulticastDelegate.Invoke(1337);
 
         // Check if the delegate contains the callback
-        if (TestDelegate.Contains(MyCallback))
+        if (MyMulticastDelegate.Contains(MyCallback))
         {
             PrintString("Delegate contains MyCallback");
         }
         
         // Unsubscribe from the delegate
-        TestDelegate -= MyCallback;
+        MyMulticastDelegate -= MyCallback;
 
         base.BeginPlay();
     }
