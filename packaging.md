@@ -6,7 +6,7 @@ layout: default
 
 ## Package Your Game
 
-**Currently only Windows is supported**
+**Currently only Windows/Mac is supported**
 
 Begin by packaging your game as you would normally in Unreal Engine. Ensure you select the correct platform (Windows) and configurations for your game. This initial step does not differ from the standard game packaging procedure in Unreal Engine.
 
