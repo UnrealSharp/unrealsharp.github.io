@@ -106,7 +106,7 @@ Hit **Apply** and **OK**. Now you can press F5 and start scripting! 😃
 
 ## Need more help or any questions?
 
-Join the [Discord](https://discord.gg/UQbxHM3jgC) or visit the [FAQ](https://www.unrealsharp.com/get-started.html)!
+Join the [Discord](https://discord.gg/UQbxHM3jgC) or visit the [FAQ](https://www.unrealsharp.com/faq.html)!
 
 
 
