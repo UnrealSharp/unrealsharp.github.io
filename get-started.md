@@ -21,17 +21,26 @@ Compile the plugin as any other Unreal Engine plugin using the IDE of your choic
 
 ## Launching UnrealSharp
 
-Start your project and everything will be setup for you.
+Launch your Unreal Engine project through the solution file or .uproject. Once Unreal Engine has fully opened, this prompt should appear:
 
-Once Unreal Engine has fully opened, look in the directory **ProjectRootDirectory/Script** there will be a C# project now, it should look like this:
+![NoProjectPrompt](https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/NoProjectFoundPrompt.PNG)
 
-![ScriptFolder](https://github.com/UnrealSharp/UnrealSharp/assets/101010793/d55bc910-151f-4cf4-a72e-d696def6305c)
+Press **Yes** and the **Create C# Project** menu should appear like this:
 
-But instead of **ManagedCropoutUnrealSharp**, it should say **ManagedYourProjectName**. So don't get confused :D
+![CreateProject](https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/CreateProjectPrompt.PNG)
+
+You can choose a custom project name, and the project will be located in the **ProjectRootFolder/Script** directory. Subdirectories within Script are also supported, allowing you to organize your project files in any folder structure you prefer.
+
+{: .note }
+By default it'll create a new folder for each new project!
+
+### Help! I accidentally cancelled the operation
+
+Navigate to the top of editor viewport and you'll find the UnrealSharp logo. Click on **New C# Project** and you're back on track.
+
+![ToolbarShowcase](https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/ToolbarShowcase.PNG)
 
 ## Start Scripting
-
-Open the **ManagedYourProjectName.sln** file and create a C# class. 
 
 Make a class like this:
 
