@@ -33,7 +33,9 @@ You can choose a custom project name, and the project will be located in the **P
 
 **By default it'll create a new folder for each new project!**
 
-### Help! I accidentally cancelled the operation
+## Quick Access to UnrealSharp's editor features
+
+If you lose track or need to start over, you can easily access the project setup again.
 
 Navigate to the top of the editor viewport and you'll find the **UnrealSharp** logo. Click on **New C# Project** and you're back on track.
 
