@@ -52,8 +52,14 @@ Delegates exposed to Unreal Engine follow the same syntax as standard C# delegat
 ```c#
     protected override void BeginPlay()
     {
+        // Subscribe with a lambda. Must have a UFunction attribute
+        MyMulticastDelegate += [UFunction](int a) =>
+        {
+            PrintString($"MyCallback invoked with {a}");
+        };
+
         // Subscribe to the delegate with a callback
-        MyMulticastDelegate += MyCallback;
+        MyMulticastDelegate += MyFunctionCallback;
         
         // Invoke the delegate
         MyMulticastDelegate.Invoke(1337);
@@ -72,7 +78,7 @@ Delegates exposed to Unreal Engine follow the same syntax as standard C# delegat
     
     // A callback to an Unreal Engine exposed delegate must be a UFunction.
     [UFunction]
-    public void MyCallback(int a)
+    public void MyFunctionCallback(int a)
     {
         PrintString($"MyCallback invoked with {a}");
     }
