@@ -10,6 +10,8 @@ layout: default
 
 Begin by packaging your game as you would normally in Unreal Engine. Ensure you select the correct platform (Windows) and configurations for your game. This initial step does not differ from the standard game packaging procedure in Unreal Engine.
 
+There are two ways to package UnrealSharp, you can either package it via the editor or the command prompt. Both options are explained below.
+
 ## Packaging via Unreal Editor
 
 You can easily package your C# project and runtime directly through the Unreal Editor. Follow these steps:
@@ -29,12 +31,11 @@ After selecting the correct folder, you should see the packaging process start.
 Once the prompt disappears, the packaging is complete, and your game is ready to be launched.
 
 ## Packaging via Command Prompt
-
 Open **Command Prompt** or **PowerShell** window and navigate to ```UnrealSharp\Binaries\Managed```
 
 ## Package Project Script
 
-```dotnet UnrealSharpBuildTool.dll --Action PackageProject --ProjectDirectory "<YourProjectDirectory>" --ProjectName "<YourProjectName>" --PluginDirectory "<YourPluginDirectory>" --ArchiveDirectory "<YourArchiveDirectory>" --AdditionalArgs BuildConfig=Release```
+```dotnet UnrealSharpBuildTool.dll --Action PackageProject --ProjectDirectory "<YourProjectDirectory>" --ProjectName "<YourProjectName>" --PluginDirectory "<YourPluginDirectory>" --AdditionalArgs BuildConfig=Release ArchiveDirectory="<YourArchiveDirectory>"```
 
 **--Action:** The action you want UnrealSharpBuildTool to run.
 
@@ -49,7 +50,7 @@ Open **Command Prompt** or **PowerShell** window and navigate to ```UnrealSharp\
 ### Example Usage:
 If your project is named "MyGame" and is located at ```C:/Users/CoolName/Documents/Unreal Projects/MyGame```, with the UnrealSharp plugin in the project's "Plugins" folder and you want to archive the packaged game to the desktop, your command would look like this:
 
-```dotnet UnrealSharpBuildTool.dll --Action PackageProject --ProjectDirectory "C:/Users/CoolName/Documents/Unreal Projects/MyGame/" --ProjectName "MyGame" --PluginDirectory "C:/Users/CoolName/Documents/Unreal Projects/MyGame/Plugins/UnrealSharp" --ArchiveDirectory "C:/Users/CoolName/Desktop/Windows" --AdditionalArgs BuildConfig=Release```
+```dotnet UnrealSharpBuildTool.dll --Action PackageProject --ProjectDirectory "C:/Users/CoolName/Documents/Unreal Projects/MyGame/" --ProjectName "MyGame" --PluginDirectory "C:/Users/CoolName/Documents/Unreal Projects/MyGame/Plugins/UnrealSharp" --AdditionalArgs BuildConfig=Release ArchiveDirectory="C:/Users/CoolName/Desktop/Windows"```
 
 ## Done and dusted!
 
