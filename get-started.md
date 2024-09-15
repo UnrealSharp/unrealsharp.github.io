@@ -35,11 +35,19 @@ You can choose a custom project name, and the project will be located in the **P
 
 ## Quick Access to UnrealSharp's editor features
 
-If you lose track or need to start over, you can easily access the project setup again.
+If you lose track or need to start over, you can easily access the project setup feature again.
 
 Navigate to the top of the editor viewport and you'll find the **UnrealSharp** logo. Click on **New C# Project** and you're back on track.
 
 ![ToolbarShowcase](https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/ToolbarShowcase.PNG)
+
+## Project Setup Completed
+
+Once the project is created and the solution opens, you will see two projects in the Solution Explorer.
+
+**ProjectGlue**: This project contains the automatically generated glue code that is related to your project's API. It is critical to the interop process, and it will be regenerated with each build. Therefore, do not modify or directly use this project. Any changes made here will be overwritten.
+
+![SolutionShowcase](https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/SolutionShowcase.PNG)
 
 ## Start Scripting
 
