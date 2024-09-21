@@ -14,10 +14,13 @@ When exposing delegates to Unreal Engine, some additional steps are required com
 Delegates exposed to Unreal Engine needs to have parameters that are supported by reflection.
 
 ```c#
+// Delegates need the attribute to generate the correct glue for the type.
+
 // Multicast delegates.
+[UMultiDelegate]
 public delegate void MyShowcaseMulticastDelegate(int a);
 
-// Single delegates. They need the USingleDelegate attribute for UnrealSharp to generate the correct glue to communicate with C++.
+// Single delegates.
 [USingleDelegate]
 public delegate void MyShowcaseDelegate(int a);
 ```
