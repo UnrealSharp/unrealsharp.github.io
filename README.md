@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/cover.png
-coverY: 70.52513966480447
 layout:
-  cover:
-    visible: true
-    size: hero
   title:
     visible: true
   description:
