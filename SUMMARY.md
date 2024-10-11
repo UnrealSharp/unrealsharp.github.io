@@ -22,7 +22,7 @@
   * [TSet](documentation/collections/tset.md)
   * [TMap](documentation/collections/tmap.md)
 * [Functions](documentation/functions/README.md)
-  * [Specifiers](documentation/functions/specifiers.md)
+  * [Flags](documentation/functions/specifiers.md)
   * [Delegates](documentation/functions/delegates.md)
   * [Interfaces](documentation/functions/interfaces.md)
 * [Multiplayer](documentation/multiplayer/README.md)
@@ -33,7 +33,7 @@
 * [Extension Methods](documentation/extension-methods.md)
 * [Helper Methods](documentation/helper-methods.md)
 * [Subsystems](documentation/subsystems.md)
-* [‎ ](documentation/undefined.md)
+* [‎](documentation/undefined.md)
 
 ***
 
