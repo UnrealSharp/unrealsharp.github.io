@@ -23,6 +23,7 @@
   * [TMap](documentation/collections/tmap.md)
 * [Functions](documentation/functions/README.md)
   * [Flags](documentation/functions/specifiers.md)
+  * [MetaData](documentation/functions/metadata.md)
   * [Delegates](documentation/functions/delegates.md)
   * [Interfaces](documentation/functions/interfaces.md)
 * [Multiplayer](documentation/multiplayer/README.md)
