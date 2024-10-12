@@ -13,7 +13,7 @@ FGameplayTag myGameplayTag = GameplayTags.MyGameplayTag;
 FGameplayTag myGameplayTagMySubTag = GameplayTags.MyGameplayTag_MySubTag;
 ```
 
-The GameplayTags class updates in real time as you add more tags to your project.
+The `GameplayTags` class updates in real time as you add more tags to your project.
 
 ## Gameplay Tag Container
 
