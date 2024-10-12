@@ -1,7 +1,7 @@
 ---
 description: >-
-  Gameplay Tags are user-defined strings that function as conceptual,
-  hierarchical labels.
+  Gameplay Tags are user-defined names that function as conceptual, hierarchical
+  labels.
 ---
 
 # Gameplay Tags
