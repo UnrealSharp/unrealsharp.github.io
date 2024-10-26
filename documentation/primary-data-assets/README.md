@@ -11,7 +11,7 @@ public class UItemPrimaryDataAsset : UCSPrimaryDataAsset
         AssetName = "Item";
     }
     
-    [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
+    [UProperty(PropertyFlags.EditDefaultsOnly)]
     public FText ItemName { get; set; }
 }
 ```
