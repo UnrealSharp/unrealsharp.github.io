@@ -9,7 +9,7 @@ UAssetManager assetManager = UAssetManager.Get();
 List<FName> bundles = new List<FName>();
 
 // Load all primary assets of type ItemRecipe
-assetManager.LoadPrimaryAssets(AssetTypes.ItemRecipe.PrimaryAssetList, bundles, (loadedAssets) =>
+assetManager.LoadPrimaryAssets(AssetTypes.ItemRecipe.PrimaryAssetList, bundles, [UFunction](loadedAssets) =>
 {
     // Callback for when assets are loaded
 });
