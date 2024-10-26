@@ -29,13 +29,14 @@
 * [Multiplayer](documentation/multiplayer/README.md)
   * [Replicated Properties](documentation/multiplayer/replicated-properties.md)
   * [RPCs (Remote Procedure Calls)](documentation/multiplayer/rpcs-remote-procedure-calls.md)
+* [Primary Data Assets](documentation/primary-data-assets/README.md)
+  * [Loading Assets](documentation/primary-data-assets/loading-assets.md)
 * [Async](documentation/async.md)
 * [Gameplay Tags](documentation/gameplay-tags.md)
 * [Default Actor Components](documentation/default-actor-components.md)
 * [Extension Methods](documentation/extension-methods.md)
 * [Helper Methods](documentation/helper-methods.md)
 * [Subsystems](documentation/subsystems.md)
-* [‎](documentation/undefined.md)
 
 ***
 
