@@ -43,3 +43,9 @@
 * [Github Repository](https://github.com/UnrealSharp/UnrealSharp)
 * [Roadmap](https://github.com/orgs/UnrealSharp/projects/3)
 * [Discord](https://discord.gg/HQuJUYFxeV)
+
+## Links
+
+* [Github Repository](https://github.com/UnrealSharp/UnrealSharp)
+* [Roadmap](https://github.com/orgs/UnrealSharp/projects/3)
+* [Discord](https://discord.gg/HQuJUYFxeV)
