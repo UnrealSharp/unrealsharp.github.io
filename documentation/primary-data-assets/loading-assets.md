@@ -1,6 +1,6 @@
 # Loading Assets
 
-All types registered in `AssetManager` settings are accessible in C# through the static `AssetTypes` class
+All types registered in `AssetManager` settings are accessible in C# through the static `AssetTypes` class. These bindings make it easy to locate and load all assets of a specific type:
 
 ```csharp
 UAssetManager assetManager = UAssetManager.Get();
