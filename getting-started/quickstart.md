@@ -1,6 +1,6 @@
 ---
-description: Get setup and running with your first project using UnrealSharp
 icon: bullseye-arrow
+description: Get setup and running with your first project using UnrealSharp
 layout:
   title:
     visible: true
@@ -18,13 +18,13 @@ layout:
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-Unreal Engine 5.3+ (UnrealSharp 0.2 was developed using 5.3, so may work on earlier versions)
+Unreal Engine 5.3 - 5.5
 
 Install [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-## Install UnrealSharp to your project <a href="#install-unrealsharp-to-your-project" id="install-unrealsharp-to-your-project"></a>
+## Clone UnrealSharp to your project <a href="#install-unrealsharp-to-your-project" id="install-unrealsharp-to-your-project"></a>
 
-Clone [this ](https://github.com/UnrealSharp/UnrealSharp)repo and place UnrealSharp in the **ProjectRootDirectory/Plugins** folder (make the Plugins folder if it doesn’t exist) in your Unreal Engine project.
+Clone [this ](https://github.com/UnrealSharp/UnrealSharp)repo and place **UnrealSharp** in the **ProjectRootDirectory/Plugins** folder (make the Plugins folder if it doesn’t exist) in your Unreal Engine project.
 
 ```
 git clone https://github.com/UnrealSharp/UnrealSharp.git

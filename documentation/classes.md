@@ -18,9 +18,8 @@ layout:
 
 # Classes
 
-```csharp
-[UClass]
-public class AMyShowcaseClass : AActor
+<pre class="language-csharp"><code class="lang-csharp"><strong>[UClass]
+</strong>public class AMyShowcaseClass : AActor
 {
     protected override void BeginPlay()
     {
@@ -28,4 +27,4 @@ public class AMyShowcaseClass : AActor
     }
 }
 
-```
+</code></pre>
