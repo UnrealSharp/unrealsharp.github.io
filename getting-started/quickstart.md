@@ -20,7 +20,7 @@ layout:
 
 Unreal Engine 5.3 - 5.5
 
-Install [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
 ## Clone UnrealSharp to your project <a href="#install-unrealsharp-to-your-project" id="install-unrealsharp-to-your-project"></a>
 
