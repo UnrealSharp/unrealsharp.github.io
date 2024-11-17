@@ -60,7 +60,7 @@ To use the code generation for your custom classes (it’s already enabled for e
 
 ```xml
 <ItemGroup>
-  <Analyzer Include="..\Plugins\UnrealSharp\Binaries\Managed\UnrealSharp.ExtensionSourceGenerators.dll" />
+  <Analyzer Include="..\..\Plugins\UnrealSharp\Binaries\Managed\UnrealSharp.ExtensionSourceGenerators.dll" />
 </ItemGroup>
 ```
 
