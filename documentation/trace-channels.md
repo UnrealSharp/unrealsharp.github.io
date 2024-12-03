@@ -8,7 +8,7 @@ To bridge this gap, the `ETraceChannel` provide a way to work with more readable
 
 The `ETraceChannel` enum defines a set of collision channels, each of which maps to a corresponding entry in the project's collision settings.
 
-```
+```csharp
 public enum ETraceChannel
 {
     Visibility = 0,      // Default engine-provided channel
@@ -25,7 +25,7 @@ public enum ETraceChannel
 
 Here's how to use the `ETraceChannel` enum and the `ToQuery` to use it with `ETraceTypeQuery`:
 
-```
+```csharp
 ETraceTypeQuery traceChannel = ETraceChannel.Camera.ToQuery();
 SystemLibrary.LineTraceByChannel(this, start, end, traceChannel, false, actors, EDrawDebugTrace.None, out FHitResult hit, true);
 ```
