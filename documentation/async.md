@@ -22,8 +22,7 @@ The method signature must be `public` and it supports returning `Task` or `Task<
 [UClass]
 public class AAsyncActor : AActor
 {
-
-    // here we have a cancellation token
+    // Cancellation token is optional.
     [UFunction(FunctionFlags.BlueprintCallable)]
     public async Task<int> SlowAdd(int lhs, int rhs, CancellationToken cancellationToken)
     {
