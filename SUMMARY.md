@@ -33,6 +33,7 @@
   * [RPCs (Remote Procedure Calls)](documentation/multiplayer/rpcs-remote-procedure-calls.md)
 * [Primary Data Assets](documentation/primary-data-assets/README.md)
   * [Loading Assets](documentation/primary-data-assets/loading-assets.md)
+* [Trace Channels](documentation/trace-channels.md)
 * [Async](documentation/async.md)
 * [Gameplay Tags](documentation/gameplay-tags.md)
 * [Default Actor Components](documentation/default-actor-components.md)
