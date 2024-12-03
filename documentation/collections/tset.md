@@ -15,7 +15,6 @@ public class AMyShowcaseClass : AActor
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
     public TSet<int> MySet { get; set; }
 
-    [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
     protected override void BeginPlay()
     {
         base.BeginPlay();
@@ -30,7 +29,7 @@ TMap can also be represented as an ISet inside of a UFunction
 
 ```csharp
 [UFunction(FunctionFlags.BlueprintCallable)]
-public void TestList(ISet<int> MySet)
+public void TestSet(ISet<int> MySet)
 {
     PrintString($"Set Count: {MySet.Count}");
 }
