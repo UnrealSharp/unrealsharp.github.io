@@ -1,6 +1,6 @@
 ---
-description: Frequently Asked Questions
 icon: message-question
+description: Frequently Asked Questions
 ---
 
 # FAQ
@@ -43,7 +43,7 @@ You can look at the [Roadmap](https://github.com/orgs/UnrealSharp/projects/3) fo
 
 ### 8. What are the system requirements for UnrealSharp? <a href="#id-8-what-are-the-system-requirements-for-unrealsharp" id="id-8-what-are-the-system-requirements-for-unrealsharp"></a>
 
-UnrealSharp requires the same system specifications as [Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine). Additionally, the [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) is necessary to use this plugin.
+UnrealSharp requires the same system specifications as [Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine). Additionally, the [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) is necessary to use this plugin.
 
 ## Technical <a href="#technical" id="technical"></a>
 
