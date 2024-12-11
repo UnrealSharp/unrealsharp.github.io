@@ -42,6 +42,7 @@
 * [Extension Methods](documentation/extension-methods.md)
 * [Helper Methods](documentation/helper-methods.md)
 * [Subsystems](documentation/subsystems.md)
+* [Module Lifecycle](documentation/module-lifecycle.md)
 
 ## Links
 
