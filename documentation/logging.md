@@ -21,7 +21,7 @@ public static partial class LogMySecondLog;
 
 **Use the Log Categories**
 
-Here’s an example of how to integrate your custom log categories into an actor:
+Here’s an example of how to log with your custom categories:
 
 ```csharp
 [UClass]
