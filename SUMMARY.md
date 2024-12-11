@@ -34,6 +34,8 @@
 * [Primary Data Assets](documentation/primary-data-assets/README.md)
   * [Loading Assets](documentation/primary-data-assets/loading-assets.md)
 * [Trace Channels](documentation/trace-channels.md)
+* [Static Variables](documentation/static-variables.md)
+* [Logging](documentation/logging.md)
 * [Async](documentation/async.md)
 * [Gameplay Tags](documentation/gameplay-tags.md)
 * [Default Actor Components](documentation/default-actor-components.md)
