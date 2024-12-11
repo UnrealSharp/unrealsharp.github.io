@@ -39,3 +39,10 @@ public class ALogShowcase : AActor
     }
 }
 ```
+
+And they will show up like this in the output log in the engine:
+
+```
+LogMyFirstLog: Display: ALogShowcase constructor executed
+LogMyFirstLog: Display: BeginPlay executed
+```
