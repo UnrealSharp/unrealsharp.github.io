@@ -9,6 +9,14 @@ For instance, if you use regular static variables to store world-specific data, 
 
 ### Static Variables in UnrealSharp
 
+To enable these classes in your project you need to include this in your csproj:
+
+```xml-doc
+<Reference Include="UnrealSharp.StaticVars">
+  <HintPath>..\..\Plugins\UnrealSharp\Binaries\Managed\UnrealSharp.StaticVars.dll</HintPath>
+</Reference>
+```
+
 #### FWorldStaticVar\<T>
 
 `FWorldStaticVar<T>` is a class designed to manage static variables that are tied to the lifetime of a `UWorld`. This means the value is automatically cleaned up when the associated `UWorld` is destroyed, such as during level transitions.
