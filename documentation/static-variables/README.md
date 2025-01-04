@@ -17,3 +17,12 @@ To enable these classes in your project you need to include this in your csproj:
 </Reference>
 ```
 
+## Available classes that manages static data
+
+{% content-ref url="fgamestaticvar-less-than-t-greater-than.md" %}
+[fgamestaticvar-less-than-t-greater-than.md](fgamestaticvar-less-than-t-greater-than.md)
+{% endcontent-ref %}
+
+{% content-ref url="fworldstaticvar-less-than-t-greater-than.md" %}
+[fworldstaticvar-less-than-t-greater-than.md](fworldstaticvar-less-than-t-greater-than.md)
+{% endcontent-ref %}
