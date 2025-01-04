@@ -31,6 +31,7 @@
 * [Multiplayer](documentation/multiplayer/README.md)
   * [Replicated Properties](documentation/multiplayer/replicated-properties.md)
   * [RPCs (Remote Procedure Calls)](documentation/multiplayer/rpcs-remote-procedure-calls.md)
+  * [Replicated UObjects](documentation/multiplayer/replicated-uobjects.md)
 * [Primary Data Assets](documentation/primary-data-assets/README.md)
   * [Loading Assets](documentation/primary-data-assets/loading-assets.md)
 * [Trace Channels](documentation/trace-channels.md)
