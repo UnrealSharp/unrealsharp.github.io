@@ -1,7 +1,5 @@
 # FGameStaticVar\<T>
 
-#### FGameStaticVar\<T>
-
 `FGameStaticVar<T>` is a class designed to manage static variables that will persist during the whole game.
 
 In editor the value will reset on Play In Editor start/end and on hot reload.

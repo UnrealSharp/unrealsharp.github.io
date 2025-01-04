@@ -1,7 +1,5 @@
 # FWorldStaticVar\<T>
 
-#### FWorldStaticVar\<T>
-
 `FWorldStaticVar<T>` is a class designed to manage static variables that are tied to the lifetime of a `UWorld`. This means the value is automatically cleaned up when the associated `UWorld` is destroyed, such as during level transitions.
 
 **Declaration and Usage**
