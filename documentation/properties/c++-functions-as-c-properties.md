@@ -1,6 +1,14 @@
 # C++ Functions As C# Properties
 
-UnrealSharp automatically generates properties for any C++ function with a `Get` or `Set` prefix, provided the function either returns a value or accepts a single parameter. This includes `Get` functions that has an out parameter.&#x20;
+UnrealSharp automatically generates properties for any C++ function with a `Get` or `Set` prefix, provided the function either returns a value or accepts a single parameter.&#x20;
+
+This includes `Get` functions that has an out parameter or just a `WorldContextObject`as parameter, like shown below.
+
+```csharp
+/** Returns the game instance object  */
+UFUNCTION(BlueprintPure, Category="Game", meta=(WorldContext="WorldContextObject"))
+static ENGINE_API class UGameInstance* GetGameInstance(const UObject* WorldContextObject);
+```
 
 The generator will attempt to pair corresponding getter and setter functions into a single C# property.
 
