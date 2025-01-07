@@ -12,7 +12,9 @@
 
 ## Documentation
 
-* [Classes](documentation/classes.md)
+* [Classes](documentation/classes/README.md)
+  * [Default Actor Components](documentation/classes/default-actor-components.md)
+  * [Helper Methods](documentation/classes/helper-methods.md)
 * [Structs](documentation/structs.md)
 * [Enums](documentation/enums.md)
 * [Properties](documentation/properties/README.md)
@@ -41,9 +43,7 @@
 * [Logging](documentation/logging.md)
 * [Async](documentation/async.md)
 * [Gameplay Tags](documentation/gameplay-tags.md)
-* [Default Actor Components](documentation/default-actor-components.md)
 * [Extension Methods](documentation/extension-methods.md)
-* [Helper Methods](documentation/helper-methods.md)
 * [Subsystems](documentation/subsystems.md)
 * [Module Lifecycle](documentation/module-lifecycle.md)
 
