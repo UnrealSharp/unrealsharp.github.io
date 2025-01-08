@@ -4,11 +4,11 @@ description: Exposing C# Interfaces to Unreal
 
 # Interfaces
 
-To create an interface in UnrealSharp, the interface must be prefixed with I, subclassed from IInterface, and use the UInterface attribute.
+To create an interface in UnrealSharp, the interface must be prefixed with I, and use the UInterface attribute.
 
 ```csharp
 [UInterface]
-public interface IInteractable : IInterface
+public interface IInteractable
 {
     [UFunction(FunctionFlags.BlueprintEvent)]
     public bool OnInteract();
