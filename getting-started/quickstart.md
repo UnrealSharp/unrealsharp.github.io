@@ -34,6 +34,10 @@ git clone https://github.com/UnrealSharp/UnrealSharp.git
 
 Compile the plugin as any other Unreal Engine plugin using the IDE of your choice.
 
+{% hint style="danger" %}
+Avoid compiling through the .uproject file. It introduces several issues, such as outdated binaries even when the source code has changed, which complicates debugging and support.
+{% endhint %}
+
 ## Launching UnrealSharp <a href="#launching-unrealsharp" id="launching-unrealsharp"></a>
 
 Launch your Unreal Engine project through the solution file or .uproject. Once Unreal Engine has fully opened, this prompt should appear:
