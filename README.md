@@ -30,7 +30,7 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 * **Hot reload:** Compile and reload code on the fly without having to restart the engine for changes.
 * **Automatic Bindings:** Automatically generates C# API based on what is exposed to reflection.
 * **.NET Ecosystem:** Use any NuGet package to extend functionality.
-* **MIT License:** UnrealSharp is under the MIT License, which means you’re free to use, tweak, and share it in any of your projects, whether personal or commercial.
+* **MIT License:** UnrealSharp is released under the MIT License, meaning you're free to use it in any project, whether personal or commercial, entirely free of charge.
 
 ## Supported Platforms <a href="#supported-platforms" id="supported-platforms"></a>
 
