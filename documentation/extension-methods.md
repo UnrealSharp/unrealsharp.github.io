@@ -2,7 +2,7 @@
 description: C++ Extension Methods for C#
 ---
 
-# Extension Methods
+# Extension / Mixin Methods
 
 Extension methods are static methods that can be invoked on an existing class as if they were instance methods of that class. This is particularly useful when you want to add methods to existing classes (such as `Actor`) without modifying their original source code.
 
@@ -23,7 +23,6 @@ UCLASS()
 class UCSTestExtensions : public UBlueprintFunctionLibrary
 {
     GENERATED_BODY()
-
 public:
 
     // Example of an extension method that takes an int parameter
