@@ -44,7 +44,7 @@
 * [Async](documentation/async.md)
 * [Gameplay Tags](documentation/gameplay-tags/README.md)
   * [Gameplay Tag Container](documentation/gameplay-tags/gameplay-tag-container.md)
-* [Extension Methods](documentation/extension-methods.md)
+* [Extension / Mixin Methods](documentation/extension-methods.md)
 * [Subsystems](documentation/subsystems.md)
 * [Module Lifecycle](documentation/module-lifecycle.md)
 

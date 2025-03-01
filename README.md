@@ -30,6 +30,7 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 * **Hot reload:** Compile and reload code on the fly without having to restart the engine for changes.
 * **Automatic Bindings:** Automatically generates C# API based on what is exposed to reflection.
 * **.NET Ecosystem:** Use any NuGet package to extend functionality.
+* **MIT License:** UnrealSharp is under the MIT License, which means you’re free to use, tweak, and share it in any of your projects, whether personal or commercial.
 
 ## Supported Platforms <a href="#supported-platforms" id="supported-platforms"></a>
 
@@ -39,7 +40,7 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 * **Android** - Planned
 * **Linux** - Planned
 
-## Sample Project <a href="#sample-project" id="sample-project"></a>
+## Sample Projects <a href="#sample-project" id="sample-project"></a>
 
 [Sample Defense Game](https://github.com/UnrealSharp/UnrealSharp-SampleDefenseGame), project made for Mini Jam 174.
 
