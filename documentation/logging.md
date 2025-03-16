@@ -1,5 +1,15 @@
 # Logging
 
+**Enable Custom Logs**
+
+Need to include this assembly in your csproj:
+
+```
+<Reference Include="UnrealSharp">
+  <HintPath>..\..\Plugins\UnrealSharp\Binaries\Managed\net9.0\UnrealSharp.Logging.dll</HintPath>
+</Reference>
+```
+
 **Define Custom Log Categories**
 
 The `[CustomLog]` attribute is used on a `partial` (and preferably `static`) class to define a custom log category, for the Unreal Engine output log.&#x20;
