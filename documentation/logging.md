@@ -5,7 +5,7 @@
 Need to include this assembly in your csproj:
 
 ```
-<Reference Include="UnrealSharp">
+<Reference Include="UnrealSharp.Logging">
   <HintPath>..\..\Plugins\UnrealSharp\Binaries\Managed\net9.0\UnrealSharp.Logging.dll</HintPath>
 </Reference>
 ```
