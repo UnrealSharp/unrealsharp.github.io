@@ -18,6 +18,8 @@ layout:
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
+C++ Project (For compiling the plugin)
+
 Unreal Engine 5.3 - 5.5
 
 Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
@@ -29,6 +31,10 @@ Clone [this ](https://github.com/UnrealSharp/UnrealSharp)repo and place **Unreal
 ```
 git clone https://github.com/UnrealSharp/UnrealSharp.git
 ```
+
+## Generate Project Files
+
+Right click on your projects UProject file and generate project files.
 
 ## Compiling UnrealSharp <a href="#compiling-unrealsharp" id="compiling-unrealsharp"></a>
 
