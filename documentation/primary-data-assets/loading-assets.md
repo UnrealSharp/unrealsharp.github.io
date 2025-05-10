@@ -9,7 +9,7 @@ UAssetManager assetManager = UAssetManager.Get();
 List<FName> bundles = new List<FName>();
 
 // Load all primary assets of type ItemRecipe
-IList<UObject> loadedItems = await assetManager.LoadPrimaryAssets(AssetTypes.ItemRecipe.PrimaryAssetList, bundles);
+IList<UItemRecipe> loadedItems = await assetManager.LoadPrimaryAssets<UItemRecipe>(AssetTypes.ItemRecipe.PrimaryAssetList, bundles);
 ```
 
 To load specific assets, use the static `AssetIds` class or expose a `UProperty`of type `FPrimaryAssetId`and assign it in editor.
@@ -21,8 +21,8 @@ UAssetManager assetManager = UAssetManager.Get();
 List<FName> bundles = new List<FName>();
 
 // Loads Item_Axe primary asset.
-UItem loadedItem = await assetManager.LoadPrimaryAsset(AssetIds.Item_Item_Axe, bundles);
+UItem loadedItem = await assetManager.LoadPrimaryAsset<UItem>(AssetIds.Item_Item_Axe, bundles);
 
 // Loads Item_Axe primary asset through assigned property.
-UItem loadedItem = await assetManager.LoadPrimaryAsset(AxeRecipeId, bundles);
+UItem loadedItem = await assetManager.LoadPrimaryAsset<UItem>(AxeRecipeId, bundles);
 ```
