@@ -1,4 +1,4 @@
-# Loading Soft Objects
+# Loading Soft References
 
 Unreal has two ways to reference assets so they're not a hard reference. Both through `TSoftObjectPtr<T>` and `TSoftClassPtr<T>`, these must be loaded in order to use them.
 

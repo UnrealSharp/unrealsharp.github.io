@@ -36,7 +36,7 @@
   * [Replicated UObjects](documentation/multiplayer/replicated-uobjects.md)
 * [Primary Data Assets](documentation/primary-data-assets/README.md)
   * [Loading Primary Data Assets](documentation/primary-data-assets/loading-assets.md)
-* [Loading Soft Objects](documentation/loading-soft-objects.md)
+* [Loading Soft References](documentation/loading-soft-references.md)
 * [Trace Channels](documentation/trace-channels.md)
 * [Static Variables](documentation/static-variables/README.md)
   * [FWorldStaticVar\<T>](documentation/static-variables/fworldstaticvar-less-than-t-greater-than.md)
