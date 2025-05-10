@@ -1,4 +1,4 @@
-# Loading Assets
+# Loading Primary Data Assets
 
 All types registered in `AssetManager` settings are accessible in C# through the static `AssetTypes` class. These bindings make it easy to locate and load all assets of a specific type:
 
@@ -9,10 +9,7 @@ UAssetManager assetManager = UAssetManager.Get();
 List<FName> bundles = new List<FName>();
 
 // Load all primary assets of type ItemRecipe
-assetManager.LoadPrimaryAssets(AssetTypes.ItemRecipe.PrimaryAssetList, bundles, [UFunction](loadedAssets) =>
-{
-    // Callback for when assets are loaded
-});
+IList<UObject> loadedItems = await assetManager.LoadPrimaryAssets(AssetTypes.ItemRecipe.PrimaryAssetList, bundles);
 ```
 
 To load specific assets, use the static `AssetIds` class or expose a `UProperty`of type `FPrimaryAssetId`and assign it in editor.
@@ -24,14 +21,8 @@ UAssetManager assetManager = UAssetManager.Get();
 List<FName> bundles = new List<FName>();
 
 // Loads Item_Axe primary asset.
-assetManager.LoadPrimaryAsset(AssetIds.Item_Item_Axe, bundles, [UFunction](asset) =>
-{
-    // Callback for when assets are loaded
-});
+UItem loadedItem = await assetManager.LoadPrimaryAsset(AssetIds.Item_Item_Axe, bundles);
 
 // Loads Item_Axe primary asset through assigned property.
-assetManager.LoadPrimaryAsset(AxeRecipeId, bundles, [UFunction](asset) =>
-{
-    // Callback for when assets are loaded
-});
+UItem loadedItem = await assetManager.LoadPrimaryAsset(AxeRecipeId, bundles);
 ```
