@@ -1,6 +1,6 @@
 ---
-icon: bullseye-arrow
 description: Get setup and running with your first project using UnrealSharp
+icon: bullseye-arrow
 layout:
   title:
     visible: true
@@ -20,7 +20,7 @@ layout:
 
 C++ Project (For compiling the plugin)
 
-Unreal Engine 5.3 - 5.5
+Unreal Engine 5.3 - 5.6
 
 Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
