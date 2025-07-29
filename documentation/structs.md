@@ -1,4 +1,4 @@
-# Structs
+# Structs / Records
 
 Only need UStruct to expose the struct to Unreal Engine
 
@@ -22,3 +22,12 @@ public struct FMyStruct
     public UObject MyObject;
 }
 ```
+
+Records also works:
+
+```csharp
+[UStruct]
+public record struct FMyDemoStruct([field: UProperty(PropertyFlags.EditAnywhere)] int MyInt, 
+                                   [field: UProperty(PropertyFlags.EditAnywhere)] string MyString)
+```
+

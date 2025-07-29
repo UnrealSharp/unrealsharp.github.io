@@ -21,7 +21,7 @@
     * [MetaData](documentation/classes/functions/metadata.md)
   * [Default Actor Components](documentation/classes/default-actor-components.md)
   * [Helper Methods](documentation/classes/helper-methods.md)
-* [Structs](documentation/structs.md)
+* [Structs / Records](documentation/structs.md)
 * [Enums](documentation/enums.md)
 * [Interfaces](documentation/classes/functions/interfaces.md)
 * [Delegates](documentation/classes/functions/delegates.md)
