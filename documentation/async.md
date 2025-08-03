@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Async
 
 This plugin also supports the abilty to expose latent actions to Blueprint. To do so, just return a `Task` like you normally would. However, when you do the `await` statement, at the end, call the extension method `ConfigureWithUnrealContext()`. This makes sure that all parts of the operation will run on the correct thread. You can also use a cancellation token if you want. Simply add it as a parameter.

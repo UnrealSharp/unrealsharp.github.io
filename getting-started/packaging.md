@@ -1,23 +1,12 @@
 ---
-icon: file-export
 description: Package and Export Your Game
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+icon: file-export
 ---
 
 # Packaging
 
 {% hint style="warning" %}
-#### _**Currently only Windows/Mac is supported**_
+_**Currently only Windows/Mac is supported**_
 {% endhint %}
 
 Begin by packaging your game as you would normally in Unreal Engine. Ensure you select the correct platform (Windows) and configurations for your game. This initial step does not differ from the standard game packaging procedure in Unreal Engine.

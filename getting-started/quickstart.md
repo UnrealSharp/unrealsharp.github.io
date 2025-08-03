@@ -1,17 +1,6 @@
 ---
 description: Get setup and running with your first project using UnrealSharp
 icon: bullseye-arrow
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Setup
@@ -52,9 +41,11 @@ Launch your Unreal Engine project through the solution file or .uproject. Once U
 
 Press **Yes** and the **Create C# Project** menu should appear like this:
 
-<figure><img src="https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/CreateProjectPrompt.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-08-03 205817.png" alt=""><figcaption></figcaption></figure>
 
 You can choose a custom project name, and the project will be located in the **ProjectRootFolder/Script** directory. Subdirectories within Script are also supported, allowing you to organize your project files in any folder structure you prefer.
+
+Owner is either a plugin or the project. UnrealSharp supports having C# code in a plugin.
 
 {% hint style="info" %}
 **By default it’ll create a new folder for each new project!**
@@ -72,4 +63,6 @@ Once the project is created and the solution opens, you will see two projects in
 
 **ProjectGlue**: This project contains the automatically generated glue code that is related to your project’s API. It is critical to the interop process, and it will be regenerated with each build. Therefore, do not modify or directly use this project. Any changes made here will be overwritten.
 
-<figure><img src="https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/SolutionShowcase.PNG" alt=""><figcaption></figcaption></figure>
+**Plugins:** Here any plugins within the project will reside. The glue for each plugin will be in **PluginRootFolder\Script\PluginName.PluginGlue**
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-08-03 210011.png" alt=""><figcaption></figcaption></figure>

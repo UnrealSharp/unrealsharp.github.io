@@ -1,17 +1,6 @@
 ---
-icon: scroll
 description: Making your first basic script in UnrealSharp
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+icon: scroll
 ---
 
 # Your First Script

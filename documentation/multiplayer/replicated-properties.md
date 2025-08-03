@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Replicated Properties
 
 Replicated properties are variables whose values are automatically synchronized across the network, from the server to all clients. UnrealSharp allows you to easily define which properties should be replicated and under what conditions.
@@ -60,4 +46,3 @@ Sometimes, you might want to replicate a property only under specific conditions
 [UProperty(PropertyFlags.Replicated, LifetimeCondition = LifetimeCondition.OwnerOnly)]
 public string MyReplicatedString { get; set; }
 ```
-
