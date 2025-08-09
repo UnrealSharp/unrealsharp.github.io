@@ -71,4 +71,4 @@ Therefore, do not modify or directly use this project. Any changes made here wil
 
 **Plugins:** Here any plugins within the project will reside. The glue for each plugin will be in **PluginRootFolder\Script\PluginName.Glue**
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-08-03 210011.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-08-09 121710.png" alt=""><figcaption></figcaption></figure>
