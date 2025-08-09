@@ -53,12 +53,16 @@ public class ADelegateShowcaseClass : AActor
 
 Delegates exposed to Unreal Engine follow the same syntax as standard C# delegates, with some additional features.
 
+{% hint style="danger" %}
+Static lambdas are not supported when subscribing to a Unreal Engine delegate. It needs to capture **this**.
+{% endhint %}
+
 <pre class="language-csharp"><code class="lang-csharp"><strong>protected override void BeginPlay()
 </strong>{
     // Subscribe with a lambda. Must have a UFunction attribute
     MyMulticastDelegate += [UFunction](int a) =>
     {
-        PrintString($"MyCallback invoked with {a}");
+        DestroyActor();
     };
 
     // Subscribe to the delegate with a callback
