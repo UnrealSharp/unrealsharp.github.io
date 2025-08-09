@@ -7,9 +7,11 @@ icon: bullseye-arrow
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-C++ Project (For compiling the plugin)
+C++ Project (Highly recommended but not required. See warning under "**Compiling UnrealSharp**")
 
 Unreal Engine 5.3 - 5.6
+
+Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for Unreal Engine
 
 Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
@@ -23,7 +25,7 @@ git clone https://github.com/UnrealSharp/UnrealSharp.git
 
 ## Generate Project Files
 
-Right click on your projects UProject file and generate project files.
+Right click on your project's **.uproject** file and generate project files
 
 ## Compiling UnrealSharp <a href="#compiling-unrealsharp" id="compiling-unrealsharp"></a>
 
@@ -31,11 +33,13 @@ Compile the plugin as any other Unreal Engine plugin using the IDE of your choic
 
 {% hint style="danger" %}
 Avoid compiling the plugin by clicking on the .uproject file. It introduces several issues, such as outdated binaries even when the source code has changed, which complicates debugging and support.
+
+If you do choose this option, you need to remove **Binaries/Intermediate** folders in the **project/UnrealSharp** folder, whenever you fetch a new version of the plugin from Git.
 {% endhint %}
 
 ## Launching UnrealSharp <a href="#launching-unrealsharp" id="launching-unrealsharp"></a>
 
-Launch your Unreal Engine project through the solution file or .uproject. Once Unreal Engine has fully opened, this prompt should appear:
+Launch your Unreal Engine project through the **solution file** or **.uproject**. Once Unreal Engine has fully opened, this prompt should appear:
 
 <figure><img src="https://raw.githubusercontent.com/UnrealSharp/unrealsharp.github.io/main/media/get-started/NoProjectFoundPrompt.PNG" alt=""><figcaption></figcaption></figure>
 
@@ -61,8 +65,10 @@ Navigate to the top of the editor viewport and you’ll find the **UnrealSharp**
 
 Once the project is created and the solution opens, you will see two projects in the Solution Explorer.
 
-**ProjectGlue**: This project contains the automatically generated glue code that is related to your project’s API. It is critical to the interop process, and it will be regenerated with each build. Therefore, do not modify or directly use this project. Any changes made here will be overwritten.
+**ProjectName.Glue**: This project contains the automatically generated glue code that is related to your C++ API. It's part of the interop process, and it will be regenerated with each build that trigger UnrealHeaderTool.&#x20;
 
-**Plugins:** Here any plugins within the project will reside. The glue for each plugin will be in **PluginRootFolder\Script\PluginName.PluginGlue**
+Therefore, do not modify or directly use this project. Any changes made here will be overwritten.
+
+**Plugins:** Here any plugins within the project will reside. The glue for each plugin will be in **PluginRootFolder\Script\PluginName.Glue**
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-08-03 210011.png" alt=""><figcaption></figcaption></figure>
