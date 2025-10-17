@@ -13,7 +13,7 @@ Unreal Engine 5.3 - 5.6
 
 Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for Unreal Engine
 
-Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) (9.0.305+)
 
 ## Clone UnrealSharp to your project <a href="#install-unrealsharp-to-your-project" id="install-unrealsharp-to-your-project"></a>
 
