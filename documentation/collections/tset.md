@@ -10,12 +10,12 @@ Example of using a TSet as a UProperty
 
 ```csharp
 [UClass]
-public class AMyShowcaseClass : AActor
+public partial class AMyShowcaseClass : AActor
 {
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
-    public TSet<int> MySet { get; set; }
+    public partial TSet<int> MySet { get; set; }
 
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         base.BeginPlay();
 

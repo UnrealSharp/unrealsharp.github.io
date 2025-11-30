@@ -4,7 +4,7 @@ Only need UStruct to expose the struct to Unreal Engine
 
 ```csharp
 [UStruct]
-public struct FMyStruct
+public partial struct FMyStruct
 {
     [UProperty(PropertyFlags.BlueprintReadOnly)]
     public int MyInt { get; private set; }
@@ -27,7 +27,6 @@ Records also works:
 
 ```csharp
 [UStruct]
-public record struct FMyDemoStruct([field: UProperty(PropertyFlags.EditAnywhere)] int MyInt, 
+public partial record struct FMyDemoStruct([field: UProperty(PropertyFlags.EditAnywhere)] int MyInt, 
                                    [field: UProperty(PropertyFlags.EditAnywhere)] string MyString)
 ```
-

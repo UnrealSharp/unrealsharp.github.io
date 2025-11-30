@@ -4,7 +4,7 @@ You can create a `UPrimaryDataAsset` in C# using `UCSPrimaryDataAsset`.
 
 ```csharp
 [UClass]
-public class UItemPrimaryDataAsset : UCSPrimaryDataAsset
+public partial class UItemPrimaryDataAsset : UCSPrimaryDataAsset
 {
     public UItemPrimaryDataAsset()
     {
@@ -12,7 +12,7 @@ public class UItemPrimaryDataAsset : UCSPrimaryDataAsset
     }
     
     [UProperty(PropertyFlags.EditDefaultsOnly)]
-    public FText ItemName { get; set; }
+    public partial FText ItemName { get; set; }
 }
 ```
 

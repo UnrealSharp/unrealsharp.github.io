@@ -14,15 +14,11 @@ public void MyBPCallableFunction(IList<int> myList)
     
 }
 
-// Can be overridden by Blueprint, but has a default implementation
-// Virtual specifier is optional.
 [UFunction(FunctionFlags.BlueprintEvent)]
-public virtual void MyOverridableFunction(IList<int> myList)
-{
-    
-}
+public partial void MyBPOverridableFunction(IList<int> myList);
 
-// Can be overridden by Blueprint, but has no default implementation
-[UFunction(FunctionFlags.BlueprintEvent)]
-public void MyBPOverridableFunction(IList<int> myList);
+public partial void MyBPOverridableFunction_Implementation(IList<int> myList)
+{
+
+}
 ```

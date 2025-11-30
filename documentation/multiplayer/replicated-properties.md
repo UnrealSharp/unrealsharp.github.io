@@ -8,7 +8,7 @@ To declare a property as replicated, annotate it with the \[UProperty] attribute
 
 ```csharp
 [UProperty(PropertyFlags.Replicated)]
-public int MyReplicatedInteger { get; set; }
+public partial int MyReplicatedInteger { get; set; }
 ```
 
 ## Using OnRep Functions <a href="#using-onrep-functions" id="using-onrep-functions"></a>
@@ -17,7 +17,7 @@ For more control over replication, you can specify a callback function that the 
 
 ```csharp
 [UProperty(ReplicatedUsing = nameof(OnRep_MyReplicatedBool))]
-public bool MyReplicatedBool { get; set; }
+public partial bool MyReplicatedBool { get; set; }
 
 [UFunction]
 void OnRep_MyReplicatedBool()
@@ -44,5 +44,5 @@ Sometimes, you might want to replicate a property only under specific conditions
 
 ```csharp
 [UProperty(PropertyFlags.Replicated, LifetimeCondition = LifetimeCondition.OwnerOnly)]
-public string MyReplicatedString { get; set; }
+public partial string MyReplicatedString { get; set; }
 ```

@@ -13,18 +13,18 @@ Getters and Setters currently cannot be used as the weaver injects into them.
 {% code fullWidth="false" %}
 ```csharp
 [UClass]
-public class AMyShowcaseClass : AActor
+public partial class AMyShowcaseClass : AActor
 {
     [UProperty(DefaultComponent = true, RootComponent = true)]
-    public UStaticMeshComponent MyMesh { get; set; }
+    public partial UStaticMeshComponent MyMesh { get; set; }
  
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
-    public TMap<int, string> MyMap { get; set; }
+    public partial  TMap<int, string> MyMap { get; set; }
 
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
-    public TWeakObjectPtr<AMyShowcaseClass> MyWeakObject { get; set; }
+    public partial TWeakObjectPtr<AMyShowcaseClass> MyWeakObject { get; set; }
 
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         base.BeginPlay();
 
@@ -40,4 +40,3 @@ public class AMyShowcaseClass : AActor
 }
 ```
 {% endcode %}
-

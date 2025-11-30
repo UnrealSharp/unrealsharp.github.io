@@ -8,9 +8,9 @@ description: >-
 # Classes
 
 <pre class="language-csharp"><code class="lang-csharp"><strong>[UClass]
-</strong>public class AMyShowcaseClass : AActor
+</strong>public partial class AMyShowcaseClass : AActor
 {
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         base.BeginPlay();
     }

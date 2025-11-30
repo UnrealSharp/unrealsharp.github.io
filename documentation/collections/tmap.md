@@ -10,12 +10,12 @@ Example of using a TMap as a UProperty
 
 ```csharp
 [UClass]
-public class AMyShowcaseClass : AActor
+public partial class AMyShowcaseClass : AActor
 {
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
     public TMap<int, string> MyMap { get; set; }
 
-    protected override void BeginPlay()
+    public partial override void BeginPlay()
     {
         base.BeginPlay();
 
