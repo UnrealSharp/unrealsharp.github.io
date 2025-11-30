@@ -14,7 +14,7 @@ To define a root component using UnrealSharp, you use the **\[UProperty]** attri
 
 ```csharp
 [UProperty(DefaultComponent = true, RootComponent = true)]
-public USceneComponent MyRootComponent { get; set; }
+public partial USceneComponent MyRootComponent { get; set; }
 ```
 
 * **DefaultComponent**: This flag indicates that the property should be automatically instantiated as a component when the actor is created.
@@ -28,12 +28,12 @@ To attach a component as a child of the root component, use the AttachmentCompon
 
 ```csharp
 [UProperty(DefaultComponent = true, AttachmentComponent = nameof(MyRootComponent))]
-public UStaticMeshComponent MyStaticMeshComponent { get; set; }
+public partial UStaticMeshComponent MyStaticMeshComponent { get; set; }
 ```
 
 You can also attach components to another component’s socket:
 
 ```csharp
 [UProperty(DefaultComponent = true, AttachmentComponent = nameof(MyRootComponent), AttachmentSocket = "MySocketName")]
-public USkeletalMeshComponent MySkeletalMeshComponent { get; set; }
+public partial USkeletalMeshComponent MySkeletalMeshComponent { get; set; }
 ```
