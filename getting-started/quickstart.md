@@ -9,7 +9,7 @@ icon: bullseye-arrow
 
 C++ Project (Highly recommended but not required. See warning under "**Compiling UnrealSharp**")
 
-Unreal Engine 5.3 - 5.6
+Unreal Engine 5.3 - 5.7
 
 Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for Unreal Engine
 
@@ -65,7 +65,7 @@ Navigate to the top of the editor viewport and you’ll find the **UnrealSharp**
 
 Once the project is created and the solution opens, you will see two projects in the Solution Explorer.
 
-**ProjectName.Glue**: This project contains the automatically generated glue code that is related to your C++ API. It's part of the interop process, and it will be regenerated with each build that trigger UnrealHeaderTool.&#x20;
+**ProjectName.Glue**: This project contains the automatically generated glue code that is related to your C++ API. It's part of the interop process, and it will be regenerated with each build that trigger UnrealHeaderTool.
 
 Therefore, do not modify or directly use this project. Any changes made here will be overwritten.
 
