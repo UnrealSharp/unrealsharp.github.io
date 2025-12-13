@@ -16,10 +16,10 @@ using UnrealSharp.Engine;
 namespace ManagedTestCSharp;
 
 [UClass]
-public class AMyTestClass : AActor
+public partial class AMyTestClass : AActor
 {   
     [UProperty(PropertyFlags.BlueprintReadOnly)]
-    public int MyInt { get; set; }
+    public partial int MyInt { get; set; }
 
     protected override void BeginPlay()
     {
