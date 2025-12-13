@@ -8,12 +8,12 @@ Example of setting up an array and adding to it.
 
 ```csharp
 [UClass]
-public class AMyShowcaseClass : AActor
+public partial class AMyShowcaseClass : AActor
 { 
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
-    public TArray<int> Array { get; set; }
+    public partial TArray<int> Array { get; set; }
 
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         base.BeginPlay();
 
@@ -31,4 +31,3 @@ public void TestList(IList<string> myList)
     PrintString($"List Count: {myList.Count}");
 }
 ```
-

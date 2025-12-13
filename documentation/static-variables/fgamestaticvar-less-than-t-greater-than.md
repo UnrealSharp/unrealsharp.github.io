@@ -14,7 +14,7 @@ public static readonly FGameStaticVar<float> MyStaticFloat = new();
 
 To use it within your C# code:
 
-<pre class="language-csharp"><code class="lang-csharp">public class AMyActor : AActor
+<pre class="language-csharp"><code class="lang-csharp">public partial class AMyActor : AActor
 {
 <strong>    public static readonly FGameStaticVar&#x3C;float> MyStaticFloat = new();
 </strong><strong>    

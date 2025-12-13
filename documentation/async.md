@@ -6,7 +6,7 @@ The method signature must be `public` and it supports returning `Task` or `Task<
 
 ```csharp
 [UClass]
-public class AAsyncActor : AActor
+public partial class AAsyncActor : AActor
 {
     // Cancellation token is optional.
     [UFunction(FunctionFlags.BlueprintCallable)]

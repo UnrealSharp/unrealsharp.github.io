@@ -8,15 +8,15 @@ description: >-
 
 ```csharp
 [UClass]
-public class AActorTest : ACharacter
+public partial class AActorTest : ACharacter
 {
     [UProperty(PropertyFlags.EditAnywhere)]
-    public TNativeArray<int> NativeArrayTest { get; set; }
+    public partial TNativeArray<int> NativeArrayTest { get; set; }
 
     [UProperty(PropertyFlags.EditAnywhere)]
-    public TNativeArray<int> NativeArrayTest2 { get; set; }
+    public partial TNativeArray<int> NativeArrayTest2 { get; set; }
 
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         base.BeginPlay();
 

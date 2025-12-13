@@ -12,7 +12,7 @@ Need to include this assembly in your csproj:
 
 **Define Custom Log Categories**
 
-The `[CustomLog]` attribute is used on a `partial` (and preferably `static`) class to define a custom log category, for the Unreal Engine output log.&#x20;
+The `[CustomLog]` attribute is used on a `partial` (and preferably `static`) class to define a custom log category, for the Unreal Engine output log.
 
 The category's API will then generate automatically with methods such as `Log` / `LogWarning` / `LogError` / `LogFatal`.
 
@@ -35,14 +35,14 @@ Here’s an example of how to log with your custom categories:
 
 ```csharp
 [UClass]
-public class ALogShowcase : AActor
+public partial class ALogShowcase : AActor
 {
     public ALogShowcase()
     {
         LogMyFirstLog.Log("ALogShowcase constructor executed");
     }
 
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         LogMyFirstLog.Log("BeginPlay executed");
         base.BeginPlay();
