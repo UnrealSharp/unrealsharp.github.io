@@ -15,7 +15,7 @@ public partial class AMyShowcaseClass : AActor
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
     public TMap<int, string> MyMap { get; set; }
 
-    public partial override void BeginPlay()
+    public override void BeginPlay()
     {
         base.BeginPlay();
 
