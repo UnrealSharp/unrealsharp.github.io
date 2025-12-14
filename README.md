@@ -33,7 +33,9 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 
 [Sample Defense Game](https://github.com/UnrealSharp/UnrealSharp-SampleDefenseGame), project made for Mini Jam 174.
 
-Check out [UnrealSharp-Cropout](https://github.com/UnrealSharp/UnrealSharp-Cropout/tree/main), an ongoing effort to convert [Cropout](https://www.unrealengine.com/en-US/blog/cropout-casual-rts-game-sample-project), originally created in Blueprints, into C# using UnrealSharp.
+[Slime Guzzler](https://github.com/UnrealSharp/Epic-MegaJam-Project), project made for Epic MegaJam 2025
+
+[UnrealSharp-Cropout](https://github.com/UnrealSharp/UnrealSharp-Cropout/tree/main), originally created in Blueprints by Epic Games, now converted to C# using UnrealSharp.
 
 ## Discord <a href="#discord" id="discord"></a>
 
