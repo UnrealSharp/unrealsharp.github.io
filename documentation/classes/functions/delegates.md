@@ -16,11 +16,11 @@ Delegates exposed to Unreal Engine needs to have parameters that are supported b
 
 // Multicast delegates.
 [UMultiDelegate]
-public delegate void MyShowcaseMulticastDelegate(int a);
+public delegate void FMyShowcaseMulticastDelegate(int a);
 
 // Single delegates.
 [USingleDelegate]
-public delegate void MyShowcaseDelegate(int a);
+public delegate void FMyShowcaseDelegate(int a);
 ```
 {% endcode %}
 
@@ -34,7 +34,7 @@ In UnrealSharp, delegates can be exposed as class members in the following ways:
 public class ADelegateShowcaseClass : AActor
 {
     [UProperty(PropertyFlags.BlueprintAssignable)]
-    public TMulticastDelegate<MyShowcaseMulticastDelegate> MyMulticastDelegate { get; set; }
+    public partial TMulticastDelegate<MyShowcaseMulticastDelegate> MyMulticastDelegate { get; set; }
     
     [UFunction(FunctionFlags.BlueprintCallable)]
     public void MyFunctionWithCallback(TDelegate<MyShowcaseDelegate> singleDelegate)
@@ -44,7 +44,7 @@ public class ADelegateShowcaseClass : AActor
 
     // Single delegates as properties can't be Blueprint exposed, but reflection exposed. Unreal Engine limitation.
     [UProperty]
-    TDelegate<MyShowcaseDelegate> MySingleDelegate { get; set; }
+    public partial TDelegate<MyShowcaseDelegate> MySingleDelegate { get; set; }
 }
 ```
 {% endcode %}
@@ -53,18 +53,8 @@ public class ADelegateShowcaseClass : AActor
 
 Delegates exposed to Unreal Engine follow the same syntax as standard C# delegates, with some additional features.
 
-{% hint style="danger" %}
-Static lambdas are not supported when subscribing to a Unreal Engine delegate. It needs to capture **this**.
-{% endhint %}
-
 <pre class="language-csharp"><code class="lang-csharp"><strong>protected override void BeginPlay()
 </strong>{
-    // Subscribe with a lambda. Must have a UFunction attribute
-    MyMulticastDelegate += [UFunction](int a) =>
-    {
-        DestroyActor();
-    };
-
     // Subscribe to the delegate with a callback
     MyMulticastDelegate += MyFunctionCallback;
     
