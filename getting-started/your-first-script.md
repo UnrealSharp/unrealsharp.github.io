@@ -21,7 +21,7 @@ public partial class AMyTestClass : AActor
     [UProperty(PropertyFlags.BlueprintReadOnly)]
     public partial int MyInt { get; set; }
 
-    protected override void BeginPlay()
+    public override void BeginPlay()
     {
         PrintString("Hello from C#!");
         base.BeginPlay();
