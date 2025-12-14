@@ -53,7 +53,7 @@ public class ADelegateShowcaseClass : AActor
 
 Delegates exposed to Unreal Engine follow the same syntax as standard C# delegates, with some additional features.
 
-<pre class="language-csharp"><code class="lang-csharp"><strong>protected override void BeginPlay()
+<pre class="language-csharp"><code class="lang-csharp"><strong>public override void BeginPlay()
 </strong>{
     // Subscribe to the delegate with a callback
     MyMulticastDelegate += MyFunctionCallback;
