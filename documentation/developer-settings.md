@@ -21,7 +21,7 @@ public partial class UMyDeveloperSettings : UDeveloperSettings
 }
 ```
 
-If you now open the project settings, you can find your custom developer settings there.<br>
+If you now open the project settings, you can find your custom developer settings there.
 
 <figure><img src="../.gitbook/assets/DeveloperSettings.PNG" alt=""><figcaption></figcaption></figure>
 
