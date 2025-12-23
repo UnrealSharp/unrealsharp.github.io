@@ -7,7 +7,7 @@ Developer Settings is a class that shows up in **Project Settings** to configure
 * Create a class that derives from `UDeveloperSettings`.
 * Assign a config category to the class, for example:`[UClass(config: "Game")]`.
 * Any property you want to edit must be marked with `PropertyFlags.Config`.
-* Object references can't be saved to config. They need to be soft referenced through TSoftObjectPtr<> or TSoftClassPtr<>.
+* Object references can't be saved to config. They need to be soft referenced through `TSoftObjectPtr<>` or `TSoftClassPtr<>`.
 
 ```csharp
 [UClass(config: "Game")]
