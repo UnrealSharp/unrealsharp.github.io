@@ -18,9 +18,6 @@ public partial class UMyDeveloperSettings : UDeveloperSettings
     
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.Config)]
     public partial TSoftObjectPtr<UMaterialInterface> MyConfigMaterial { get; set; }
-    
-    [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.Config)]
-    public partial TSoftClassPtr<UUserWidget> MyWidget { get; set; }
 }
 ```
 
