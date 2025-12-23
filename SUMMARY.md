@@ -47,6 +47,7 @@
   * [Gameplay Tag Container](documentation/gameplay-tags/gameplay-tag-container.md)
 * [Extension / Mixin Methods](documentation/extension-methods.md)
 * [Subsystems](documentation/subsystems.md)
+* [Developer Settings](documentation/developer-settings.md)
 * [Module Lifecycle](documentation/module-lifecycle.md)
 
 ## Links
