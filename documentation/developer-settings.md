@@ -23,7 +23,7 @@ public partial class UMyDeveloperSettings : UDeveloperSettings
 
 If you now open the project settings, you can find your custom developer settings there.<br>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/DeveloperSettings.PNG" alt=""><figcaption></figcaption></figure>
 
 How to get the values in C#:
 
