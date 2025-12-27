@@ -37,9 +37,9 @@ When you have opened up the widget asset, you'll see compiler errors stating tha
 
 To resolve errors:
 
-* Drag a widget element you want to bound to from the **Palette** window into your **Hierarchy** (as shown in the image below)
-* You must rename these widgets to exactly match the property names in your C# code (in this case: `MyImage` and `MyTextBlock`).
+* Drag a widget element you want to bind from the **Palette** window into your **Hierarchy** (as shown in the image below)
+* You must rename these spawned widgets to exactly match the property names in your C# code (in this case: `MyImage` and `MyTextBlock`).
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Hit Compile in the editor. The errors will disappear as the C# properties successfully "bind" to the visual elements.
+Hit Compile in the editor. The errors will disappear as the C# properties successfully "bind" to the newly spawned widgets.
