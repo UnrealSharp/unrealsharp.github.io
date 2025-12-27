@@ -45,6 +45,7 @@
 * [Async](documentation/async.md)
 * [Gameplay Tags](documentation/gameplay-tags/README.md)
   * [Gameplay Tag Container](documentation/gameplay-tags/gameplay-tag-container.md)
+  * [C# Created Gameplay Tags](documentation/gameplay-tags/c-created-gameplay-tags.md)
 * [Extension / Mixin Methods](documentation/extension-methods.md)
 * [Subsystems](documentation/subsystems.md)
 * [Developer Settings](documentation/developer-settings.md)
