@@ -2,7 +2,7 @@
 
 Meta Data is a way to add additional data to any reflected type in Unreal Engine in editor. UnrealSharp has exposed the most common metadata in Unreal Engine through attributes.
 
-```csharp
+```cpp
 UPROPERTY(EditDefaultsOnly, meta = (Category = "MyCategory"))
 TObjectPtr<UMyObject> MyObject;
 ```
