@@ -2,11 +2,12 @@
 
 Make a class that inherits from `UUserWidget` (for layouts) or a specific widget like `UTextBlock` for extensions.
 
-<pre class="language-csharp"><code class="lang-csharp">[UClass]
-<strong>public partial class UMyWidget : UUserWidget
-</strong>{
+```csharp
+[UClass]
+public partial class UMyWidget : UUserWidget
+{
 }
-</code></pre>
+```
 
 Now add the child widgets to compose your widget.
 
