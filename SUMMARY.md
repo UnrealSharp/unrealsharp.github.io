@@ -25,7 +25,7 @@
 * [Enums](documentation/enums.md)
 * [Interfaces](documentation/classes/functions/interfaces.md)
 * [Delegates](documentation/classes/functions/delegates.md)
-* [Widgets (UI)](documentation/widgets-ui/README.md)
+* [Widgets / UI](documentation/widgets-ui/README.md)
   * [Create/Compose Widgets](documentation/widgets-ui/create-compose-widgets.md)
   * [Show Widget On Screen](documentation/widgets-ui/show-widget-on-screen.md)
 * [Collections](documentation/collections/README.md)
