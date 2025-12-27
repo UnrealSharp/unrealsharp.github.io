@@ -1,8 +1,7 @@
 ---
 description: >-
-  UnrealSharp simplifies multiplayer in Unreal Engine by providing an intuitive
-  way to declare and manage replicated properties and remote procedure calls
-  (RPCs).
+  UnrealSharp makes multiplayer in Unreal Engine way easier. It gives you a much
+  more intuitive way to handle replicated properties and RPCs than in C++
 ---
 
 # Multiplayer
