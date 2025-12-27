@@ -1,0 +1,44 @@
+# Create/Compose Widgets
+
+Make a class that inherits from `UUserWidget` (for layouts) or a specific widget like `UTextBlock` for extensions.
+
+<pre class="language-csharp"><code class="lang-csharp">[UClass]
+<strong>public partial class UMyWidget : UUserWidget
+</strong>{
+}
+</code></pre>
+
+Now add the child widgets to compose your widget.
+
+The widgets you want to bind needs to have `UProperty` and `BindWidget` to work.
+
+```csharp
+[UClass]
+public partial class UMyWidget : UUserWidget
+{
+    [UProperty, BindWidget]
+    public partial UImage MyImage { get; set; }
+    
+    [UProperty, BindWidget]
+    public partial UTextBlock MyTextBlock { get; set; }
+}
+```
+
+In the Unreal Editor, create a new Widget Blueprint.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+You will see a compiler error stating that the required widgets are missing.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+To resolve the errors and link the logic:
+
+* Drag a widget element you want to bound to from the **Palette** window into your **Hierarchy** (as shown in the image below)
+* You must rename these widgets to exactly match the property names in your C# code (in this case: `MyImage` and `MyTextBlock`).
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Hit Compile in the editor. The errors will disappear as the C# properties successfully "bind" to the visual elements.
