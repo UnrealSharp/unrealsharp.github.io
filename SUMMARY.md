@@ -18,7 +18,6 @@
     * [C++ Properties with Getters/Setters](documentation/classes/properties/c++-properties-with-getters-setters.md)
   * [Functions](documentation/classes/functions/README.md)
     * [Flags](documentation/classes/functions/specifiers.md)
-    * [MetaData](documentation/classes/functions/metadata.md)
   * [Default Actor Components](documentation/classes/default-actor-components.md)
   * [Helper Methods](documentation/classes/helper-methods.md)
 * [Structs / Records](documentation/structs.md)
@@ -37,6 +36,7 @@
   * [Replicated Properties](documentation/multiplayer/replicated-properties.md)
   * [RPCs (Remote Procedure Calls)](documentation/multiplayer/rpcs-remote-procedure-calls.md)
   * [Replicated UObjects](documentation/multiplayer/replicated-uobjects.md)
+* [Meta Data](documentation/metadata.md)
 * [Primary Data Assets](documentation/primary-data-assets/README.md)
   * [Loading Primary Data Assets](documentation/primary-data-assets/loading-assets.md)
 * [Loading Soft References](documentation/loading-soft-references.md)
@@ -53,6 +53,7 @@
 * [Subsystems](documentation/subsystems.md)
 * [Developer Settings](documentation/developer-settings.md)
 * [Module Lifecycle](documentation/module-lifecycle.md)
+* [MetaData](documentation/metadata-1.md)
 
 ## Links
 
