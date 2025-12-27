@@ -12,14 +12,15 @@ public static readonly FWorldStaticVar<float> MyStaticFloat = new();
 
 To use it within your C# code:
 
-<pre class="language-csharp"><code class="lang-csharp">public partial class AMyActor : AActor
+```csharp
+public partial class AMyActor : AActor
 {
-<strong>    public static readonly FWorldStaticVar&#x3C;float> MyStaticFloat = new();
-</strong><strong>    
-</strong>    public AMyActor()
+    public static readonly FWorldStaticVar<float> MyStaticFloat = new();
+    
+    public AMyActor()
     {
         // Set the value to 70 in the current World
         MyStaticFloat.Value = 70;
     }
 }
-</code></pre>
+```

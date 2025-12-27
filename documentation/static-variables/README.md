@@ -13,7 +13,7 @@ To enable these classes in your project you need to include this in your csproj:
 
 ```xml-doc
 <Reference Include="UnrealSharp.StaticVars">
-  <HintPath>..\..\Plugins\UnrealSharp\Binaries\Managed\UnrealSharp.StaticVars.dll</HintPath>
+  <HintPath>..\..\Plugins\UnrealSharp\Binaries\Managed\$(TargetFramework)\UnrealSharp.StaticVars.dll</HintPath>
 </Reference>
 ```
 
