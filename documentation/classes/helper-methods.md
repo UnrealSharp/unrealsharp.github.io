@@ -1,10 +1,3 @@
----
-description: >-
-  UnrealSharp extends Unreal Engine by providing simplified methods to spawn and
-  manage Actor and ActorComponent objects. Below are the available methods for
-  each class type.
----
-
 # Helper Methods
 
 ## Methods Available for Actor Classes: <a href="#methods-available-for-actor-classes" id="methods-available-for-actor-classes"></a>
@@ -64,18 +57,3 @@ To use the code generation for your custom classes (it’s already enabled for e
 </ItemGroup>
 ```
 
-### Class Requirements <a href="#class-requirements" id="class-requirements"></a>
-
-For the generated methods to be applicable, your classes must be declared as partial:
-
-```csharp
-public partial class AMyActor : AActor
-{
-   
-}
-
-public partial class UMyComponent : UActorComponent
-{
-
-}
-```
