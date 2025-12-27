@@ -36,7 +36,7 @@
   * [Replicated Properties](documentation/multiplayer/replicated-properties.md)
   * [RPCs (Remote Procedure Calls)](documentation/multiplayer/rpcs-remote-procedure-calls.md)
   * [Replicated UObjects](documentation/multiplayer/replicated-uobjects.md)
-* [Meta Data](documentation/metadata.md)
+* [Meta Data](documentation/classes/functions/metadata.md)
 * [Primary Data Assets](documentation/primary-data-assets/README.md)
   * [Loading Primary Data Assets](documentation/primary-data-assets/loading-assets.md)
 * [Loading Soft References](documentation/loading-soft-references.md)

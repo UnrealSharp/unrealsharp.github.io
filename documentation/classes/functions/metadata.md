@@ -1,6 +1,6 @@
 # Meta Data
 
-MetaData is a way to add additional data to any reflected type in Unreal Engine in editor. UnrealSharp has exposed the most common metadata in Unreal Engine through attributes.
+Meta Data is a way to add additional data to any reflected type in Unreal Engine in editor. UnrealSharp has exposed the most common metadata in Unreal Engine through attributes.
 
 ```csharp
 UPROPERTY(EditDefaultsOnly, meta = (Category = "MyCategory"))
