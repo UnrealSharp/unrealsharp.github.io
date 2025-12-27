@@ -31,11 +31,11 @@ In the Unreal Editor, create a new Widget Blueprint.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-You will see a compiler error stating that the required widgets are missing.
+When you have opened up the widget asset, you'll see compiler errors stating that the required widgets are missing.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-To resolve the errors and link the logic:
+To resolve errors:
 
 * Drag a widget element you want to bound to from the **Palette** window into your **Hierarchy** (as shown in the image below)
 * You must rename these widgets to exactly match the property names in your C# code (in this case: `MyImage` and `MyTextBlock`).
