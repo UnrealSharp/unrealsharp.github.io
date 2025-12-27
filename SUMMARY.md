@@ -53,7 +53,6 @@
 * [Subsystems](documentation/subsystems.md)
 * [Developer Settings](documentation/developer-settings.md)
 * [Module Lifecycle](documentation/module-lifecycle.md)
-* [MetaData](documentation/metadata-1.md)
 
 ## Links
 
