@@ -13,7 +13,7 @@ public partial int MyReplicatedInteger { get; set; }
 
 ## Using OnRep Functions <a href="#using-onrep-functions" id="using-onrep-functions"></a>
 
-For more control over replication, you can specify a callback function that the multiplayer system will call when a replicated property changes. This is particularly useful for updating game state or UI in response to property changes.
+For more control over replication, you can specify a callback function that the multiplayer system will call when a replicated property changes. This is particularly for updating game state or UI in response to value changes.
 
 ```csharp
 [UProperty(ReplicatedUsing = nameof(OnRep_MyReplicatedBool))]
