@@ -24,13 +24,15 @@ public partial class AMyTestClass : AActor
     public override void BeginPlay()
     {
         PrintString("Hello from C#!");
+    
         base.BeginPlay();
     }
 
     [UFunction(FunctionFlags.BlueprintCallable)]
-    public void MyFunction(bool myBool, int MyInt)
+    public void MyFunction(int myInt)
     {
-        PrintString("Hello from MyFunction!");
+        MyInt = myInt;
+        PrintString($"MyInt set to {MyInt}");
     }
 }
 ```
