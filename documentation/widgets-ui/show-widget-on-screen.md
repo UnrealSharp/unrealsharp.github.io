@@ -40,4 +40,4 @@ public partial class AMyCharacter : ACharacter
 
 `AddToViewport` is the quickest way to get a widget on screen, it’s generally considered "quick and dirty".
 
-I highly recommend using built-in plugins like [CommonUI](https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-advanced-multiplatform-user-interfaces-with-common-ui-for-unreal-engine) to build more complex and scalable UI. It works with UnrealSharp right out of the box.
+Highly recommend using built-in plugins like [CommonUI](https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-advanced-multiplatform-user-interfaces-with-common-ui-for-unreal-engine) to build more complex and scalable UI. It works with UnrealSharp right out of the box.
