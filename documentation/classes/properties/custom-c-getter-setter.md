@@ -7,7 +7,7 @@ Custom getter / setter don't need any partial declaration.
 ```csharp
 private int _score;
 
-[UProperty(PropertyFlags.EditAnywhere)]
+[UProperty(PropertyFlags.BlueprintReadOnly)]
 public int Score
 {
     get { return _score; }
