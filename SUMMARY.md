@@ -16,6 +16,7 @@
   * [Properties](documentation/classes/properties/README.md)
     * [C++ Functions As C# Properties](documentation/classes/properties/c++-functions-as-c-properties.md)
     * [C++ Properties with Getters/Setters](documentation/classes/properties/c++-properties-with-getters-setters.md)
+    * [Custom C# Getter / Setter](documentation/classes/properties/custom-c-getter-setter.md)
   * [Functions](documentation/classes/functions/README.md)
     * [Flags](documentation/classes/functions/specifiers.md)
   * [Default Actor Components](documentation/classes/default-actor-components.md)
