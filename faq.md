@@ -73,4 +73,4 @@ Use `NewObject<T>()` for any classes inheriting from `uobject`. `new T()` does n
 
 ### 6. Can I make a C# plugin? <a href="#id-6-can-i-make-a-c-plugin" id="id-6-can-i-make-a-c-plugin"></a>
 
-Yes! You can either create a module using the UnrealSharp toolbar in the editor and "Create C# Project" or&#x20;
+Yes! Follow the guides [here](documentation/c-plugins/).
