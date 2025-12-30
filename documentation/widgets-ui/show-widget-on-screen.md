@@ -15,7 +15,7 @@ public partial class AMyCharacter : ACharacter
 
 Which creates this in your child BP class, now assign it with a widget blueprint you want to spawn.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now you can create the widget blueprint and show it:
 

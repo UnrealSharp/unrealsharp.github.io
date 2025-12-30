@@ -54,6 +54,9 @@
 * [Subsystems](documentation/subsystems.md)
 * [Developer Settings](documentation/developer-settings.md)
 * [Module Lifecycle](documentation/module-lifecycle.md)
+* [C# Plugins](documentation/c-plugins/README.md)
+  * [Create New Plugin](documentation/c-plugins/create-new-plugin.md)
+  * [Add C# To Existing Plugin](documentation/c-plugins/add-c-to-existing-plugin.md)
 
 ## Links
 
