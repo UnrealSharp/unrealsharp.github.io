@@ -29,7 +29,7 @@ In the Unreal Editor, create a new Widget Blueprint.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you have opened up the widget asset, you'll see compiler errors stating that the required widgets are missing.
 

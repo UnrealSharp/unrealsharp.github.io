@@ -2,7 +2,7 @@
 
 Go to the **Plugins** window by following the steps in the image below:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Now click on **Add** as seen in the image below:
 

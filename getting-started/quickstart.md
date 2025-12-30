@@ -45,7 +45,7 @@ Launch your Unreal Engine project through the **solution file** or **.uproject**
 
 Press **Yes** and the **Create C# Project** menu should appear like this:
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-08-03 205817.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 You can choose a custom project name, and the project will be located in the **ProjectRootFolder/Script** directory. Subdirectories within Script are also supported, allowing you to organize your project files in any folder structure you prefer.
 
