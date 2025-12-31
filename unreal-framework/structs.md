@@ -1,6 +1,6 @@
-# Structs / Records
+# Structs
 
-Only need UStruct to expose the struct to Unreal Engine
+Structs need to be partial and have the `UStruct` attribute to expose the struct to the engine.
 
 ```csharp
 [UStruct]
