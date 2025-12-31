@@ -7,9 +7,9 @@ description: >-
 
 # Properties
 
-* Be marked with the **`[UProperty]`** attribute.
+* Be marked with the `[UProperty]` attribute.
 * Be defined as C# properties with getters and/or setters.
-* Be declared as **`partial`**, allowing UnrealSharp to generate the required interop and reflection code.<br>
+* Be declared as `partial`, allowing UnrealSharp to generate the required interop and reflection code.<br>
 
 Getters and setters are fully usable and behave like normal C# properties, while still being visible to Unreal.<br>
 
