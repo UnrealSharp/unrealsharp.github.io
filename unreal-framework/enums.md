@@ -1,11 +1,11 @@
----
-description: >-
-  Any enums exposed to Unreal Engine via UProperty/UEnum/UFunction-parameter
-  must have a underlying type of byte. It’s a restriction set by the engine with
-  enums used in Blueprint.
----
-
 # Enums
+
+To expose a C# enum to Unreal Engine, it must:
+
+* Use `byte` as its underlying type
+* Have with the `[UEnum]` attribute
+
+This is a hard limitation by Unreal Engine for enums used in properties and function parameters.
 
 ```csharp
 [UEnum]

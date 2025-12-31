@@ -1,6 +1,9 @@
 # Structs
 
-Structs need to be partial and have the `UStruct` attribute to expose the struct to the engine.
+To expose a C# struct to Unreal Engine, it must:
+
+* Be declared as `partial`
+* Have the `[UStruct]` attribute
 
 ```csharp
 [UStruct]
