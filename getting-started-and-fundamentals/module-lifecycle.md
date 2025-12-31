@@ -1,3 +1,7 @@
+---
+icon: heart
+---
+
 # Module Lifecycle
 
 In C#, similar to C++, you can define a class to represent your module. These module classes are automatically generated when you create a new module using the UnrealSharp toolbar in the editor.

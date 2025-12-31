@@ -1,3 +1,7 @@
+---
+icon: subtitles
+---
+
 # Logging
 
 **Define Custom Log Categories**

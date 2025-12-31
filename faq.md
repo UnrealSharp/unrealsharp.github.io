@@ -73,4 +73,4 @@ Use `NewObject<T>()` for any classes inheriting from `uobject`. `new T()` does n
 
 ### 6. Can I make a C# plugin? <a href="#id-6-can-i-make-a-c-plugin" id="id-6-can-i-make-a-c-plugin"></a>
 
-Yes! Follow the guides [here](documentation/c-plugins/).
+Yes! Follow the guides [here](getting-started-and-fundamentals/c-plugins/).

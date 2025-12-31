@@ -3,60 +3,72 @@
 * [Home](README.md)
 * [FAQ](faq.md)
 
-## Getting Started
+## Getting Started & Fundamentals
 
-* [Setup](getting-started/quickstart.md)
-* [Your First Script](getting-started/your-first-script.md)
-* [Debugging](getting-started/debugging.md)
-* [Packaging](getting-started/packaging.md)
+* [Setup](getting-started-and-fundamentals/quickstart.md)
+* [Your First Script](getting-started-and-fundamentals/your-first-script.md)
+* [Debugging](getting-started-and-fundamentals/debugging.md)
+* [Packaging](getting-started-and-fundamentals/packaging.md)
+* [Logging](getting-started-and-fundamentals/logging.md)
+* [Module Lifecycle](getting-started-and-fundamentals/module-lifecycle.md)
+* [C# Plugins](getting-started-and-fundamentals/c-plugins/README.md)
+  * [Create New Plugin](getting-started-and-fundamentals/c-plugins/create-new-plugin.md)
+  * [Add C# To Existing Plugin](getting-started-and-fundamentals/c-plugins/add-c-to-existing-plugin.md)
 
-## Documentation
+## Unreal Framework
 
-* [Classes](documentation/classes/README.md)
-  * [Properties](documentation/classes/properties/README.md)
-    * [C++ Functions As C# Properties](documentation/classes/properties/c++-functions-as-c-properties.md)
-    * [C++ Properties with Getters/Setters](documentation/classes/properties/c++-properties-with-getters-setters.md)
-    * [Custom C# Getter / Setter](documentation/classes/properties/custom-c-getter-setter.md)
-  * [Functions](documentation/classes/functions/README.md)
-    * [Flags](documentation/classes/functions/specifiers.md)
-  * [Default Actor Components](documentation/classes/default-actor-components.md)
-  * [Helper Methods](documentation/classes/helper-methods.md)
-* [Structs / Records](documentation/structs.md)
-* [Enums](documentation/enums.md)
-* [Interfaces](documentation/classes/functions/interfaces.md)
-* [Delegates](documentation/classes/functions/delegates.md)
-* [Widgets / UI](documentation/widgets-ui/README.md)
-  * [Create/Compose Widgets](documentation/widgets-ui/create-compose-widgets.md)
-  * [Show Widget On Screen](documentation/widgets-ui/show-widget-on-screen.md)
-* [Collections](documentation/collections/README.md)
-  * [TArray](documentation/collections/tarray.md)
-  * [TNativeArray](documentation/collections/tnativearray.md)
-  * [TSet](documentation/collections/tset.md)
-  * [TMap](documentation/collections/tmap.md)
-* [Multiplayer](documentation/multiplayer/README.md)
-  * [Replicated Properties](documentation/multiplayer/replicated-properties.md)
-  * [RPCs (Remote Procedure Calls)](documentation/multiplayer/rpcs-remote-procedure-calls.md)
-  * [Replicated UObjects](documentation/multiplayer/replicated-uobjects.md)
-* [Meta Data](documentation/classes/functions/metadata.md)
-* [Primary Data Assets](documentation/primary-data-assets/README.md)
-  * [Loading Primary Data Assets](documentation/primary-data-assets/loading-assets.md)
-* [Loading Soft References](documentation/loading-soft-references.md)
-* [Trace Channels](documentation/trace-channels.md)
-* [Static Variables](documentation/static-variables/README.md)
-  * [FWorldStaticVar\<T>](documentation/static-variables/fworldstaticvar-less-than-t-greater-than.md)
-  * [FGameStaticVar\<T>](documentation/static-variables/fgamestaticvar-less-than-t-greater-than.md)
-* [Logging](documentation/logging.md)
-* [Async](documentation/async.md)
-* [Gameplay Tags](documentation/gameplay-tags/README.md)
-  * [Gameplay Tag Container](documentation/gameplay-tags/gameplay-tag-container.md)
-  * [C# Created Gameplay Tags](documentation/gameplay-tags/c-created-gameplay-tags.md)
-* [Extension / Mixin Methods](documentation/extension-methods.md)
-* [Subsystems](documentation/subsystems.md)
-* [Developer Settings](documentation/developer-settings.md)
-* [Module Lifecycle](documentation/module-lifecycle.md)
-* [C# Plugins](documentation/c-plugins/README.md)
-  * [Create New Plugin](documentation/c-plugins/create-new-plugin.md)
-  * [Add C# To Existing Plugin](documentation/c-plugins/add-c-to-existing-plugin.md)
+* [Classes](unreal-framework/classes/README.md)
+  * [Properties](unreal-framework/classes/properties/README.md)
+    * [C++ Functions As C# Properties](unreal-framework/classes/properties/c++-functions-as-c-properties.md)
+    * [C++ Properties with Getters/Setters](unreal-framework/classes/properties/c++-properties-with-getters-setters.md)
+    * [Custom C# Getter / Setter](unreal-framework/classes/properties/custom-c-getter-setter.md)
+  * [Functions](unreal-framework/classes/functions/README.md)
+    * [Flags](unreal-framework/classes/functions/specifiers.md)
+  * [Default Actor Components](unreal-framework/classes/default-actor-components.md)
+  * [Helper Methods](unreal-framework/classes/helper-methods.md)
+* [Structs](unreal-framework/structs.md)
+* [Enums](unreal-framework/enums.md)
+* [Interfaces](unreal-framework/interfaces.md)
+* [Delegates](unreal-framework/delegates.md)
+* [Subsystems](unreal-framework/subsystems.md)
+* [Meta Data](unreal-framework/metadata.md)
+
+## Data & Asset Management
+
+* [Collections](data-and-asset-management/collections/README.md)
+  * [TArray](data-and-asset-management/collections/tarray.md)
+  * [TNativeArray](data-and-asset-management/collections/tnativearray.md)
+  * [TSet](data-and-asset-management/collections/tset.md)
+  * [TMap](data-and-asset-management/collections/tmap.md)
+* [Developer Settings](data-and-asset-management/developer-settings.md)
+* [Primary Data Assets](data-and-asset-management/primary-data-assets/README.md)
+  * [Loading Primary Data Assets](data-and-asset-management/primary-data-assets/loading-assets.md)
+* [Loading Soft References](data-and-asset-management/loading-soft-references.md)
+
+## Gameplay Systems
+
+* [Multiplayer](gameplay-systems/multiplayer/README.md)
+  * [Replicated Properties](gameplay-systems/multiplayer/replicated-properties.md)
+  * [RPCs (Remote Procedure Calls)](gameplay-systems/multiplayer/rpcs-remote-procedure-calls.md)
+  * [Replicated UObjects](gameplay-systems/multiplayer/replicated-uobjects.md)
+* [Static Variables](gameplay-systems/static-variables/README.md)
+  * [FWorldStaticVar\<T>](gameplay-systems/static-variables/fworldstaticvar-less-than-t-greater-than.md)
+  * [FGameStaticVar\<T>](gameplay-systems/static-variables/fgamestaticvar-less-than-t-greater-than.md)
+* [Gameplay Tags](gameplay-systems/gameplay-tags/README.md)
+  * [Gameplay Tag Container](gameplay-systems/gameplay-tags/gameplay-tag-container.md)
+  * [C# Created Gameplay Tags](gameplay-systems/gameplay-tags/c-created-gameplay-tags.md)
+* [Trace Channels](gameplay-systems/trace-channels.md)
+* [Async](gameplay-systems/async.md)
+
+## UI
+
+* [Widgets](ui/widgets/README.md)
+  * [Create/Compose Widgets](ui/widgets/create-compose-widgets.md)
+  * [Show Widget On Screen](ui/widgets/show-widget-on-screen.md)
+
+## Glue Generation
+
+* [Extension / Mixin Methods](glue-generation/extension-methods.md)
 
 ## Links
 

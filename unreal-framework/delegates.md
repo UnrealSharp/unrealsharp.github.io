@@ -1,7 +1,3 @@
----
-description: Exposing Delegates from C# to Unreal
----
-
 # Delegates
 
 ## Delegate Declaration <a href="#delegate-declaration" id="delegate-declaration"></a>
