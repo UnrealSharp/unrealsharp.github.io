@@ -8,7 +8,7 @@ description: >-
 
 ### **Blueprint-Callable Functions**
 
-Use **`BlueprintCallable`** (or other call-related flags like `BlueprintPure`, etc.) to allow Blueprint graphs to invoke your C# method.
+Use `BlueprintCallable` (or other call-related flags like `BlueprintPure`, etc.) to allow Blueprint graphs to invoke your C# method.
 
 ```csharp
 // Can be called from BP
