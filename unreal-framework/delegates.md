@@ -22,7 +22,7 @@ public delegate void FMyShowcaseDelegate(int a);
 
 ## Class Member Declaration <a href="#class-member-declaration" id="class-member-declaration"></a>
 
-In UnrealSharp, delegates can be exposed as class members in the following ways:
+Delegates can be exposed as class members in the following ways:
 
 {% code fullWidth="false" %}
 ```csharp
@@ -30,7 +30,7 @@ In UnrealSharp, delegates can be exposed as class members in the following ways:
 public class ADelegateShowcaseClass : AActor
 {
     [UProperty(PropertyFlags.BlueprintAssignable)]
-    public partial TMulticastDelegate<MyShowcaseMulticastDelegate> MyMulticastDelegate { get; set; }
+    public partial TMulticastDelegate<FMyShowcaseMulticastDelegate> MyMulticastDelegate { get; set; }
     
     [UFunction(FunctionFlags.BlueprintCallable)]
     public void MyFunctionWithCallback(TDelegate<MyShowcaseDelegate> singleDelegate)
@@ -40,7 +40,7 @@ public class ADelegateShowcaseClass : AActor
 
     // Single delegates as properties can't be Blueprint exposed, but reflection exposed. Unreal Engine limitation.
     [UProperty]
-    public partial TDelegate<MyShowcaseDelegate> MySingleDelegate { get; set; }
+    public partial TDelegate<FMyShowcaseDelegate> MySingleDelegate { get; set; }
 }
 ```
 {% endcode %}
