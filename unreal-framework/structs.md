@@ -23,6 +23,12 @@ public partial struct FMyStruct
     
     [UProperty(PropertyFlags.BlueprintReadOnly)]
     public UObject MyObject;
+
+    [UProperty(PropertyFlags.BlueprintReadOnly)]
+    public IList<bool> MyArray;
+
+    [UProperty(PropertyFlags.BlueprintReadOnly)]
+    public IDictionary<string, string> MyMap;
 }
 ```
 
