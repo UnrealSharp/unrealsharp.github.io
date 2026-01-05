@@ -17,7 +17,8 @@ Use the **\[UFunction]** attribute with FunctionFlags.RunOnServer to indicate th
 
 ```csharp
 [UFunction(FunctionFlags.RunOnServer | FunctionFlags.Reliable)]
-public void ServerFunction()
+public partial void ServerFunction();
+public partial void ServerFunction_Implementation();
 {
     // Server-side code
 }
@@ -29,7 +30,8 @@ Similarly, to execute a function on the owning client, use FunctionFlags.RunOnCl
 
 ```csharp
 [UFunction(FunctionFlags.RunOnClient | FunctionFlags.Reliable)]
-public void ClientFunction()
+public partial void ClientFunction();
+public partial void ClientFunction_Implementation();
 {
     // Client-side code
 }
@@ -41,7 +43,8 @@ For functions that should be executed on both the server and all clients, use Fu
 
 ```csharp
 [UFunction(FunctionFlags.Multicast | FunctionFlags.Reliable)]
-public void MulticastFunction()
+public partial void MulticastFunction();
+public partial void MulticastFunction_Implementation();
 {
     // Code executed on both server and clients
 }
