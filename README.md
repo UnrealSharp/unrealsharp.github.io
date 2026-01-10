@@ -4,7 +4,7 @@ icon: hand-wave
 
 # Home
 
-UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows game developers to use C# in their projects with the power of .NET 9. It bridges the gap between C# and UE5, for those who prefer C# over C++/Blueprints.
+UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows game developers to use C# with the power of .NET 9.
 
 {% embed url="https://www.youtube.com/watch?v=xR7M2XgCuNU" %}
 
