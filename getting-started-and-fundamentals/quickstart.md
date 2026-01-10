@@ -29,7 +29,7 @@ Right click on your project's **.uproject** file and generate project files
 
 ## Compiling UnrealSharp <a href="#compiling-unrealsharp" id="compiling-unrealsharp"></a>
 
-Compile the plugin as any other Unreal Engine plugin using the IDE of your choice.
+Compile the Unreal Engine project using the IDE of your choice. UnrealSharp will automatically generate glue and compile the bindings as part of the C++ build process.
 
 {% hint style="danger" %}
 Avoid compiling the plugin by clicking on the .uproject file. It introduces several issues, such as outdated binaries even when the source code has changed, which complicates debugging and support.
