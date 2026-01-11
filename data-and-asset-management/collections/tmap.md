@@ -13,7 +13,7 @@ Example of using a TMap as a UProperty
 public partial class AMyShowcaseClass : AActor
 {
     [UProperty(PropertyFlags.EditAnywhere | PropertyFlags.BlueprintReadWrite)]
-    public TMap<int, string> MyMap { get; set; }
+    public partial TMap<int, string> MyMap { get; set; }
 
     public override void BeginPlay()
     {
