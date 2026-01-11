@@ -2,7 +2,7 @@
 
 This plugin also supports the abilty to expose latent actions to Blueprint. To do so, just return a `Task` like you normally would. However, when you do the `await` statement, at the end, call the extension method `ConfigureWithUnrealContext()`. This makes sure that all parts of the operation will run on the correct thread. You can also use a cancellation token if you want. Simply add it as a parameter.
 
-The method signature must be `public` and it supports returning `Task` or `Task<T>` where `T` is any type that is supported as a UFunction parameter.
+The method signature must be public and supports returning `ValueTask`, `ValueTask<T>`, `Task`, or `Task<T>`, where `T` is any type that is supported as a UFunction parameter.
 
 ```csharp
 [UClass]
