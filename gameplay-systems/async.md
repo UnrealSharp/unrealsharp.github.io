@@ -24,3 +24,7 @@ public partial class AAsyncActor : AActor
     }
 }
 ```
+
+The code above will generate a node like this in Blueprint:
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
