@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [FAQ](faq.md)
+* [Known Issues](known-issues.md)
 
 ## Getting Started & Fundamentals
 
