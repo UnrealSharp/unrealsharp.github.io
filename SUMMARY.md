@@ -60,6 +60,7 @@
   * [C# Created Gameplay Tags](gameplay-systems/gameplay-tags/c-created-gameplay-tags.md)
 * [Trace Channels](gameplay-systems/trace-channels.md)
 * [Async](gameplay-systems/async.md)
+* [Cheats / Debug Commands](gameplay-systems/cheats-debug-commands.md)
 
 ## UI
 
