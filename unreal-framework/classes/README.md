@@ -1,7 +1,7 @@
 ---
 description: >-
   To make a C# class visible to Unreal Engine’s reflection system (and therefore
-  Blueprint, UHT, and the gameplay framework), the class must:
+  Blueprint and the gameplay framework), the class must:
 ---
 
 # Classes
