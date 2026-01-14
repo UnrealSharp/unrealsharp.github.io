@@ -10,8 +10,9 @@ description: >-
 * **Inherit from a valid** `UObject`**-based type**, such as `AActor`, `UActorComponent`, `USceneComponent`, or any other Unreal class exposed through UnrealSharp.
 * Be declared as a `partial` **class**, so UnrealSharp can generate interop code from the source generator.
 
-<pre class="language-csharp"><code class="lang-csharp"><strong>[UClass]
-</strong>public partial class AMyShowcaseClass : AActor
+```csharp
+[UClass]
+public partial class AMyShowcaseClass : AActor
 {
     public override void BeginPlay()
     {
@@ -19,4 +20,4 @@ description: >-
     }
 }
 
-</code></pre>
+```
