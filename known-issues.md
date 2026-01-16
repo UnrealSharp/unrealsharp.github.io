@@ -10,7 +10,7 @@ Using **Newtonsoft.Json** together with UnrealSharp’s AssemblyLoadContext base
 
 More info and workaround [here](https://github.com/UnrealSharp/UnrealSharp/issues/544).
 
-#### Glue re-generating on engine upgrade or enabling a plugin
+#### Glue not generating on engine upgrade or enabling engine plugins
 
 When upgrading to a new engine version or enabling an engine plugin, UnrealBuildTool doesn't trigger because it doesn't detect any source code changes, and no new glue will be generated.&#x20;
 
