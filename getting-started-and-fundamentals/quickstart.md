@@ -9,7 +9,7 @@ icon: bullseye-arrow
 
 C++ Project (Highly recommended but not required. See warning under "**Compiling UnrealSharp**")
 
-Unreal Engine 5.3 - 5.7
+Unreal Engine 5.5 - 5.7
 
 Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for Unreal Engine
 
