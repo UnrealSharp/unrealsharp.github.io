@@ -18,8 +18,8 @@ public static partial class LogMyFirstLog;
 public static partial class LogMySecondLog;
 ```
 
-* **`LogMyFirstLog`**: Defaults to `ELogVerbosity.Display` when no verbosity is specified.
-* **`LogMySecondLog`**: Explicitly uses `ELogVerbosity.Verbose`.
+* `LogMyFirstLog`: Defaults to `ELogVerbosity.Display` when no verbosity is specified.
+* `LogMySecondLog`: Explicitly uses `ELogVerbosity.Verbose`.
 
 ***
 
