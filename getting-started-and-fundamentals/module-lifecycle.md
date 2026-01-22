@@ -17,16 +17,14 @@ namespace ModuleShowcase;
 
 public class FModuleShowcase : IModuleInterface
 {
-    // Called when the module is starting up.
+    // Called when opening the engine or reloading an assembly during hot reload
     public void StartupModule()
     {
-        // Initialization code
     }
 
-    // Called when the module is shutting down.
+    // Called when the engine is closing or reloading an assembly during hot reload
     public void ShutdownModule()
     {
-        // Cleanup code
     }
 }
 ```
