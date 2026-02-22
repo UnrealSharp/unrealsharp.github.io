@@ -33,7 +33,7 @@ public class ADelegateShowcaseClass : AActor
     public partial TMulticastDelegate<FMyShowcaseMulticastDelegate> MyMulticastDelegate { get; set; }
     
     [UFunction(FunctionFlags.BlueprintCallable)]
-    public void MyFunctionWithCallback(TDelegate<MyShowcaseDelegate> singleDelegate)
+    public void MyFunctionWithCallback(TDelegate<FMyShowcaseDelegate> singleDelegate)
     {
         
     }
