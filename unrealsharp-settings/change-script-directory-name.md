@@ -1,6 +1,6 @@
 # Change Script Directory Name
 
-By default, C# projects is in `ProjectOrPluginRoot/Script`. To customize this, create an `UnrealSharp.Settings.json` file in your project's Config folder and add the following:
+By default, C# projects is in `ProjectOrPluginRoot/Script`. To customize this, create a `UnrealSharp.Settings.json` file in `ProjectRoot/Config` folder and add the following:
 
 ```json
 {
