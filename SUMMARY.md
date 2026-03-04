@@ -16,6 +16,10 @@
   * [Create New Plugin](getting-started-and-fundamentals/c-plugins/create-new-plugin.md)
   * [Add C# To Existing Plugin](getting-started-and-fundamentals/c-plugins/add-c-to-existing-plugin.md)
 
+## UnrealSharp Settings
+
+* [Change Script Directory Name](unrealsharp-settings/change-script-directory-name.md)
+
 ## Unreal Framework
 
 * [Classes](unreal-framework/classes/README.md)
