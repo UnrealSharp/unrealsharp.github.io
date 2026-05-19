@@ -23,6 +23,6 @@ If your engine is installed in `C:/Program Files/Epic Games/UE_5.5` and your pro
 
 {% code overflow="wrap" %}
 ```batch
-"C:/UnrealEngine/Engine/Build/BatchFiles/RunUAT.bat" PackageProject -ScriptDir="C:/MyProject/Plugins/UnrealSharp/Build/Scripts" -Project="C:/MyProject/MyGame.uproject" -ArchiveDirectory="C:/BuildAgent/Output/Windows" -UETargetType="Game" -UEBuildConfig="Shipping"
+"C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat" PackageProject -ScriptDir="C:/MyProject/Plugins/UnrealSharp/Build/Scripts" -Project="C:/MyProject/MyGame.uproject" -ArchiveDirectory="C:/BuildAgent/Output/Windows" -UETargetType="Game" -UEBuildConfig="Shipping"
 ```
 {% endcode %}
