@@ -8,4 +8,4 @@ A file explorer dialog will appear, prompting you to choose the directory where 
 
 After selecting the correct folder, you should see the packaging process start.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
