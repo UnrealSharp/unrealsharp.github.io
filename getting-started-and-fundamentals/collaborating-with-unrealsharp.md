@@ -20,3 +20,10 @@ You can now distribute these specifically to your content creators according to 
 
 > Note: Only the generated C# glue code should be distributed this way. Continue to distribute your C++ binaries (the compiled game modules) through your pipeline as you would with any standard Unreal Engine project.
 
+### Debug Tools
+
+If it's not working as expected, you can use these console variables to simulate different environments and verify your setup:
+
+* `UnrealSharp.SimulateNoDotNetSDK 1` Simulates an environment where the .NET SDK is not installed.
+* `UnrealSharp.SimulateInstalledBuild 1` Forces the plugin to treat the environment as an installed build. This confirms that the project correctly consumes the distributed binaries instead of attempting to trigger a local build. **This assumes the .NET SDK is installed unless `UnrealSharp.SimulateNoDotNetSDK` is also active.**
+
