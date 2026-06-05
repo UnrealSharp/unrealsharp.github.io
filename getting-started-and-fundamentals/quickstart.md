@@ -55,20 +55,10 @@ Owner is either a plugin or the project. UnrealSharp supports having C# code in 
 **By default it’ll create a new folder for each new project!**
 {% endhint %}
 
+The managed solution should open when the project has been created, and now you're all set to start coding with UnrealSharp!
+
 ## Quick Access to UnrealSharp’s editor features <a href="#quick-access-to-unrealsharps-editor-features" id="quick-access-to-unrealsharps-editor-features"></a>
 
 If you lose track or need to start over, you can easily access the project setup feature again.
 
 Navigate to the top of the editor viewport and you’ll find the **UnrealSharp** logo. Click on **New C# Project** and you’re back on track.
-
-## Project Setup Completed <a href="#project-setup-completed" id="project-setup-completed"></a>
-
-Once the project is created and the solution opens, you will see two projects in the Solution Explorer.
-
-**ProjectName.Glue**: This project contains the automatically generated glue code that is related to your C++ API. It's part of the interop process, and it will be regenerated with each build that trigger UnrealHeaderTool.
-
-Therefore, do not modify or directly use this project. Any changes made here will be overwritten.
-
-**Plugins:** Here any plugins within the project will reside. The glue for each plugin will be in **PluginRootFolder\Script\PluginName.Glue**
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-08-09 121710.png" alt=""><figcaption></figcaption></figure>
