@@ -4,7 +4,7 @@ You can trigger the packaging process from any CI/CD environment (such as TeamCi
 
 {% code overflow="wrap" %}
 ```bat
-"<EnginePath>\Engine\Build\BatchFiles\RunUAT.bat" PackageProject -ScriptDir="<UnrealSharpRoot>\Build\Scripts" -Project="<YourProjectDirectory>/<YourProjectName>.uproject" -ArchiveDirectory="<YourArchiveDirectory>" -UETargetType="<TargetType>" -UEBuildConfig="<Config>"
+"<EnginePath>\Engine\Build\BatchFiles\RunUAT.bat" PackageProject -ScriptDir="<UnrealSharpRoot>\Build\Scripts" -Project="<YourProjectDirectory>/<YourProjectName>.uproject" -ArchiveDirectory="<YourArchiveDirectory>/ProjectName" -UETargetType="<TargetType>" -UEBuildConfig="<Config>"
 ```
 {% endcode %}
 
@@ -23,7 +23,7 @@ If your engine is installed in `C:/Program Files/Epic Games/UE_5.5` and your pro
 
 {% code overflow="wrap" %}
 ```batch
-"C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat" PackageProject -ScriptDir="C:/BuildAgent/Work/MyGame/Plugins/UnrealSharp/Build/Scripts" -Project="C:/BuildAgent/Work/MyGame/MyGame.uproject" -ArchiveDirectory="C:/BuildAgent/Output/Windows" -UETargetType="Game" -UEBuildConfig="Shipping"
+"C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat" PackageProject -ScriptDir="C:/BuildAgent/Work/MyGame/Plugins/UnrealSharp/Build/Scripts" -Project="C:/BuildAgent/Work/MyGame/MyGame.uproject" -ArchiveDirectory="C:/BuildAgent/Output/Windows/MyGame" -UETargetType="Game" -UEBuildConfig="Shipping"
 ```
 {% endcode %}
 
