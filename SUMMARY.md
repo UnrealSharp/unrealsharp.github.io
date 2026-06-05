@@ -17,6 +17,7 @@
 * [C# Plugins](getting-started-and-fundamentals/c-plugins/README.md)
   * [Create New Plugin](getting-started-and-fundamentals/c-plugins/create-new-plugin.md)
   * [Add C# To Existing Plugin](getting-started-and-fundamentals/c-plugins/add-c-to-existing-plugin.md)
+* [Collaborating with UnrealSharp](getting-started-and-fundamentals/collaborating-with-unrealsharp.md)
 
 ## UnrealSharp Settings
 
