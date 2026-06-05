@@ -16,5 +16,7 @@ Run the following command to package the necessary binaries:
 "[ENGINE_PATH]\Engine\Build\BatchFiles\RunUAT.bat" StageUnrealSharp -ScriptDir="[PROJECT_ROOT]\Plugins\UnrealSharp\Build\Scripts" -Project="[PROJECT_ROOT]\Ember.uproject"
 ```
 
-The staged build is generated here: `[PROJECT_ROOT]\Binaries\Managed\DOT_NET_VERSION\`. You can now distribute it to your content creators according to your pipeline.
+You can now distribute these specifically to your content creators according to your existing pipeline (via Unreal Game Sync or your preferred source control workflow).
+
+> Note: Only the generated C# glue code should be distributed this way. Continue to distribute your C++ binaries (the compiled game modules) through your pipeline as you would with any standard Unreal Engine project.
 
