@@ -23,10 +23,6 @@ Clone [this ](https://github.com/UnrealSharp/UnrealSharp)repo and place **Unreal
 git clone https://github.com/UnrealSharp/UnrealSharp.git
 ```
 
-## Generate Project Files
-
-Right click on your project's **.uproject** file and generate project files
-
 ## Compiling UnrealSharp <a href="#compiling-unrealsharp" id="compiling-unrealsharp"></a>
 
 Compile the Unreal Engine project using the IDE of your choice. UnrealSharp will automatically generate glue and compile the bindings as part of the C++ build process.
@@ -47,13 +43,7 @@ Press **Yes** and the **Create C# Project** menu should appear like this:
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-You can choose a custom project name, and the project will be located in the **ProjectRootFolder/Script** directory. Subdirectories within Script are also supported, allowing you to organize your project files in any folder structure you prefer.
-
-Owner is either a plugin or the project. UnrealSharp supports having C# code in a plugin.
-
-{% hint style="info" %}
-**By default it’ll create a new folder for each new project!**
-{% endhint %}
+You can choose a custom project name, and the project will be located in the **OwnerRootFolder/Script** directory. Owner is either a plugin or the project.
 
 The managed solution should open when the project has been created, and now you're all set to start coding with UnrealSharp!
 
