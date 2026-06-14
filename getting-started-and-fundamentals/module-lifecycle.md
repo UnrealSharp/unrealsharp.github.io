@@ -6,8 +6,6 @@ icon: heart
 
 In C#, similar to C++, you can define a class to represent your module. These module classes are automatically generated when you create a new module using the UnrealSharp toolbar in the editor.
 
-If your module was created before this feature was available and doesn’t have a module class, you can simply define it manually anywhere in your module. To do this, create a new class and implement the `IModuleInterface`.
-
 Here’s an example of how a module class might look:
 
 ```csharp
@@ -16,7 +14,7 @@ using UnrealSharp.Engine.Core.Modules;
 namespace ModuleShowcase;
 
 [UModule]
-public class FModuleShowcase : IModuleInterface
+public class FMyModule : IModuleInterface
 {
     // Called when opening the engine or reloading an assembly during hot reload
     public void StartupModule()
