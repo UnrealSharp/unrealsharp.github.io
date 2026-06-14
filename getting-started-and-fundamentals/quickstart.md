@@ -25,7 +25,7 @@ git clone https://github.com/UnrealSharp/UnrealSharp.git
 
 ## Compiling UnrealSharp <a href="#compiling-unrealsharp" id="compiling-unrealsharp"></a>
 
-Compile the Unreal Engine project using the IDE of your choice. UnrealSharp will automatically generate glue and compile the bindings as part of the C++ build process.
+Compile the Unreal Engine project using the IDE of your choice. UnrealSharp will automatically generate bindings and compile them as part of the C++ build process.
 
 {% hint style="danger" %}
 Avoid compiling the plugin by clicking on the .uproject file. It introduces several issues, such as outdated binaries even when the source code has changed, which complicates debugging and support.
@@ -43,9 +43,7 @@ Press **Yes** and the **Create C# Project** menu should appear like this:
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-You can choose a custom project name, and the project will be located in the **OwnerRootFolder/Script** directory. Owner is either a plugin or the project.
-
-The managed solution should open when the project has been created, and now you're all set to start coding with UnrealSharp!
+The C# solution should open when the project has been created, and now you're all set to start coding with UnrealSharp!
 
 ## Quick Access to UnrealSharp’s editor features <a href="#quick-access-to-unrealsharps-editor-features" id="quick-access-to-unrealsharps-editor-features"></a>
 
