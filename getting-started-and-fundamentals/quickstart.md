@@ -11,7 +11,7 @@ C++ Project (Highly recommended but not required. See warning under "**Compiling
 
 Unreal Engine 5.5 - 5.7
 
-Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for Unreal Engine
+Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for developing with C++ in Unreal Engine 5
 
 Install [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) (10.0.5+)
 
