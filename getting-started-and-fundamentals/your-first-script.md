@@ -23,10 +23,6 @@ layout:
 
 # Your First Script
 
-## First Script
-
-Example setup of a basic UnrealSharp class
-
 ```csharp
 using UnrealSharp.Attributes;
 using UnrealSharp.Engine;
