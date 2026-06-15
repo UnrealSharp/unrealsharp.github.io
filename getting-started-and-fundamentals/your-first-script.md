@@ -25,6 +25,7 @@ layout:
 
 ```csharp
 using UnrealSharp.Attributes;
+using UnrealSharp.CoreUObject;
 using UnrealSharp.Engine;
 
 namespace ManagedTestCSharp;
