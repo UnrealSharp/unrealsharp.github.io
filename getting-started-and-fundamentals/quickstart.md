@@ -7,7 +7,7 @@ icon: bullseye-arrow
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-Unreal Engine 5.5 - 5.7
+Unreal Engine 5.6 - 5.8
 
 Install the [required build tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine) for developing with C++ in UE5
 
