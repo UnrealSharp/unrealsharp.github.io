@@ -43,10 +43,8 @@ Press **Yes** and the **Create C# Project** menu should appear like this:
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-The C# solution should open when the project has been created, and now you're all set to start coding with UnrealSharp!
+The C# solution should open when the project has been created, and now you're all set to start coding with UnrealSharp. Visit the page below for a scripting introduction:
 
-## Quick Access to UnrealSharp’s editor features <a href="#quick-access-to-unrealsharps-editor-features" id="quick-access-to-unrealsharps-editor-features"></a>
-
-If you lose track or need to start over, you can easily access the project setup feature again.
-
-Navigate to the top of the editor viewport and you’ll find the **UnrealSharp** logo. Click on **New C# Project** and you’re back on track.
+{% content-ref url="your-first-script.md" %}
+[your-first-script.md](your-first-script.md)
+{% endcontent-ref %}
