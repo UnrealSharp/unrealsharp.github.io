@@ -18,7 +18,7 @@
   * [Create New Plugin](getting-started-and-fundamentals/c-plugins/create-new-plugin.md)
   * [Add C# To Existing Plugin](getting-started-and-fundamentals/c-plugins/add-c-to-existing-plugin.md)
 * [Collaborating with UnrealSharp](getting-started-and-fundamentals/collaborating-with-unrealsharp.md)
-* [Referencing C++ Modules](getting-started-and-fundamentals/referencing-c++-modules.md)
+* [Referencing C++ Interop Assemblies](getting-started-and-fundamentals/referencing-c++-interop-assemblies.md)
 
 ## UnrealSharp Settings
 
