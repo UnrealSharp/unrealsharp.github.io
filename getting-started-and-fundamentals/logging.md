@@ -16,6 +16,10 @@ public static partial class LogMyFirstLog;
 
 [CustomLog(ELogVerbosity.Verbose)]
 public static partial class LogMySecondLog;
+
+// Can also be declared internal
+[CustomLog]
+internal static partial class LogMyInternalLog;
 ```
 
 * `LogMyFirstLog`: Defaults to `ELogVerbosity.Display` when no verbosity is specified.
