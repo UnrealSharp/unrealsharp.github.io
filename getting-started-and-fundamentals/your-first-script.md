@@ -23,6 +23,20 @@ layout:
 
 # Your First Script
 
+### Creating the class
+
+Open the U# toolbar and choose **Create New C# type**. This step is not needed, you can also create types in your IDE of choice, this is simply to speed up the process of creating types.
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+Now choose the name, file location and parent class. For the purpose of this tutorial I'll choose an actor class.
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
+### Actor Class Example
+
+Below is an example how a actor class in U# can look like, and how it exposed functions and properties to Blueprint.
+
 ```csharp
 using UnrealSharp.Attributes;
 using UnrealSharp.CoreUObject;
