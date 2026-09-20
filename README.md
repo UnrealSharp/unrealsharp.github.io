@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Home
@@ -32,28 +34,33 @@ UnrealSharp is a free and open-source plugin for Unreal Engine 5 that allows gam
 
 ## Features <a href="#features" id="features"></a>
 
-* **C# Integration**: Write your game logic in C#.
-* **Seamless Unreal Engine 5 Compatibility**: Fully integrated with the latest UE5 features and API.
-* **Hot reload:** Compile and reload code on the fly without having to restart the engine for changes.
-* **Automatic Bindings:** Automatically generates C# API based on what is exposed to reflection.
-* **.NET Ecosystem:** Use any NuGet package to extend functionality.
-* **MIT License:** UnrealSharp is released under the MIT License, meaning you're free to use it in any project, whether personal or commercial, entirely free of charge.
+* **Unreal Engine API in C#**: Derive from any `UClass`. Implement Actors, ActorComponents, and more in C# with full access to the Unreal Engine API.
+* **Generated bindings**: The C# API is automatically generated from all reflected C++ code. This includes the engine, plugins, and your own project, so any new reflected types or members are immediately available for use in C#.
+* **Hot reload**: Recompile and reload C# code without restarting the editor.
+* **Full .NET ecosystem**: Pull in any NuGet package you need.
+* **MIT licensed**
 
-## Supported Platforms <a href="#supported-platforms" id="supported-platforms"></a>
+### Games made with UnrealSharp
 
-* **Windows** - Yes
-* **Mac** - Yes
-* **iOS** - Planned
-* **Android** - Planned
-* **Linux** - Planned
+* [Ballistic Brews (Steam Page)](https://store.steampowered.com/app/4095000/Ballistic_Brews/)
+* [Forged: Reconquest (Steam Page)](https://store.steampowered.com/app/3509080/Forged_Reconquest/)
+* [Prompt Crisis (Steam Page)](https://store.steampowered.com/app/5203720/Prompt_Crisis/)
 
-## Sample Projects <a href="#sample-project" id="sample-project"></a>
+## Sample projects <a href="#sample-project" id="sample-project"></a>
 
 [Sample Defense Game](https://github.com/UnrealSharp/UnrealSharp-SampleDefenseGame), project made for Mini Jam 174.
 
 [Slime Guzzler](https://github.com/UnrealSharp/Epic-MegaJam-Project), project made for Epic MegaJam 2025.
 
 [UnrealSharp-Cropout](https://github.com/UnrealSharp/UnrealSharp-Cropout/tree/main), originally created in Blueprints by Epic Games, now converted to C# using UnrealSharp.
+
+## Supported platforms <a href="#supported-platforms" id="supported-platforms"></a>
+
+* **Windows** - Yes
+* **Mac** - Yes
+* **iOS** - Planned
+* **Android** - Planned
+* **Linux** - Planned
 
 ## Discord <a href="#discord" id="discord"></a>
 
